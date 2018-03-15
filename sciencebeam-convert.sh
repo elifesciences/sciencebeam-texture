@@ -18,7 +18,7 @@ fi
 
 container_dir=/home/sciencebeam/data
 
-docker-compose run sciencebeam-texture \
+docker-compose run texture \
   python -m sciencebeam.examples.grobid_service_pdf_to_xml \
   --grobid-url http://grobid:8070 \
   --grobid-action /api/processHeaderDocument \
