@@ -21,7 +21,7 @@ services:
             dockerfile: Dockerfile.sciencebeam
             args:
                 commit: "${SCIENCEBEAM_COMMIT}"
-        image: elifesciences/sciencebeam:${TEXTURE_COMMIT}
+        image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
         command: /bin/bash
         ports:
             - "4000:4000"
