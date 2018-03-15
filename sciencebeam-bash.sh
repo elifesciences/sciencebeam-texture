@@ -2,4 +2,4 @@
 
 set -e # everything must succeed.
 
-docker-compose run sciencebeam /bin/bash
+docker-compose run --rm sciencebeam /bin/bash
