@@ -16,11 +16,9 @@ if [ ! -f "${host_dir}/${sample_filename}" ]; then
   wget $download_url --output-document=${host_dir}/${sample_filename}
 fi
 
-image_name=elifesciences/sciencebeam
-
 container_dir=/home/sciencebeam/data
 
-docker run --net sciencebeam-texture -v ${host_dir}:${container_dir} ${image_name} \
+docker-compose run sciencebeam-texture \
   python -m sciencebeam.examples.grobid_service_pdf_to_xml \
   --grobid-url http://grobid:8070 \
   --grobid-action /api/processHeaderDocument \

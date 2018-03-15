@@ -12,47 +12,27 @@ Watch the space
 
 ## Setup
 
-### Create ScienceBeam Docker Network
+### Build images
 
 ```bash
-./docker-network.sh
+docker-compose build
 ```
 
 Effect:
 
-* Creates the docker network _sciencebeam-texture_.
+* Creates local `elifesciences/*` Docker images.
 
-### Run Texture Container
+### Run containers
 
 ```bash
-./texture.sh
+docker-compose up
 ```
 
 Effect:
 
-* Builds and starts Texture docker container
+* Starts all the Docker containers.
 * Texture will be available on [port 4000](http://localhost:4000/).
-
-### Run GROBID container
-
-```bash
-./grobid-service.sh
-```
-
-Effect:
-
 * [GROBID](grobid.readthedocs.io) will be available on [port 8070](http://localhost:8070/).
-* Container will have name _grobid_ and be available on _sciencebeam-texture_ docker network.
-
-### Build ScienceBeam Container
-
-```bash
-./sciencebeam-build.sh
-```
-
-Effect:
-
-* Builds _elifesciences/sciencebeam_ docker container.
 
 ### Convert Sample PDF using ScienceBeam Container
 
