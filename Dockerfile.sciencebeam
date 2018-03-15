@@ -27,6 +27,3 @@ WORKDIR ${HOME}/sciencebeam
 
 RUN pip install -r requirements.txt
 RUN pip install apache-beam==2.2.0
-
-# Get GROBID installed (otherwise it would get downloaded on-demand)
-RUN python -m sciencebeam.transformers.grobid_service_wrapper

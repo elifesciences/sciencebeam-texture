@@ -7,7 +7,7 @@ host_dir=$(pwd)/.temp
 mkdir -p ${host_dir}
 chmod a+w ${host_dir} # that can't be right (but it's just temporary)
 
-# TODO use provide input arguments
+# TODO allow input arguments
 sample_filename=elife-32671-v2.pdf
 
 # download sample
