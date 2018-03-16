@@ -9,7 +9,13 @@ chmod a+w ${host_dir} # that can't be right (but it's just temporary)
 
 # TODO allow input arguments
 sample_filename=elife-32671-v2.pdf
-output_file=${host_dir}/elife-32671-v2.xml
+name=${sample_filename%.*}
+output_file=${host_dir}/${name}.xml
+manifest_dir=${host_dir}/data/${name}
+
+mkdir -p "${manifest_dir}"
+
+echo "output_file: ${output_file}"
 
 # download sample
 if [ ! -f "${host_dir}/${sample_filename}" ]; then
@@ -21,3 +27,7 @@ CONVERT_API_URL=http://localhost:8075/api/convert
 
 curl --form "file=@${host_dir}/${sample_filename};filename=${sample_filename}" \
   -o "${output_file}" $CONVERT_API_URL
+
+echo "copying to manuscript: ${manifest_dir}"
+cp "${output_file}" "${manifest_dir}/manuscript.xml"
+cp ./default-manifest.xml "${manifest_dir}/manifest.xml"

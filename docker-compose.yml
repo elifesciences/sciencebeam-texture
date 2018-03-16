@@ -9,6 +9,8 @@ services:
                 commit: "${TEXTURE_COMMIT}"
         image: elifesciences/sciencebeam_texture:${TEXTURE_COMMIT}
         command: npm start
+        volumes:
+            - ./.temp/data:/home/node/texture/data
         ports:
             - "4000:4000"
     sciencebeam:

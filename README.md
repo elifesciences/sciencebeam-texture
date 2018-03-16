@@ -13,6 +13,16 @@ Watch the space
 
 ## Setup
 
+### Setup Local Data Directory
+
+```bash
+./setup.sh
+```
+
+Effect:
+
+* That will create `.temp/data` and change permissions to allow _texture_ write access.
+
 ### Build images
 
 ```bash
