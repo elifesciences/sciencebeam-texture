@@ -9,6 +9,7 @@ chmod a+w ${host_dir} # that can't be right (but it's just temporary)
 
 # TODO allow input arguments
 sample_filename=elife-32671-v2.pdf
+output_file=${host_dir}/elife-32671-v2.xml
 
 # download sample
 if [ ! -f "${host_dir}/${sample_filename}" ]; then
@@ -16,11 +17,7 @@ if [ ! -f "${host_dir}/${sample_filename}" ]; then
   wget $download_url --output-document=${host_dir}/${sample_filename}
 fi
 
-container_dir=/home/sciencebeam/data
+CONVERT_API_URL=http://localhost:8075/api/convert
 
-docker-compose run --rm sciencebeam \
-  python -m sciencebeam.examples.grobid_service_pdf_to_xml \
-  --grobid-url http://grobid:8070 \
-  --grobid-action /api/processHeaderDocument \
-  --input "${container_dir}/${sample_filename}" \
-  --output-suffix .tei-header.xml
+curl --form "file=@${host_dir}/${sample_filename};filename=${sample_filename}" \
+  -o "${output_file}" $CONVERT_API_URL

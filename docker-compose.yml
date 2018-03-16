@@ -18,9 +18,12 @@ services:
             args:
                 commit: "${SCIENCEBEAM_COMMIT}"
         image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
-        command: /bin/bash
-        volumes:
-            - ./.temp:/home/sciencebeam/data
+        command: ./server.sh \
+            --host=0.0.0.0 --port=8075 \
+            --grobid-url http://grobid:8070/api \
+            --grobid-action /processHeaderDocument
+        ports:
+            - "8075:8075"
         depends_on:
             - grobid
     grobid:
