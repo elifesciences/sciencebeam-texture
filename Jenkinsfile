@@ -14,6 +14,7 @@ elifePipeline {
             }
 
             stage 'Project tests', {
+                sh "./setup.sh"
                 try {
                     sh "docker-compose up -d --force-recreate"
                     sh "wait_for_port 8075"
