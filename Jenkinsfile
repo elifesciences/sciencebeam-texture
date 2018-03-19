@@ -15,7 +15,7 @@ elifePipeline {
 
             stage 'Project tests', {
                 try {
-                    sh "docker-compose up"
+                    sh "docker-compose up -d --force-recreate"
                     sh "./project_tests.sh"
                 } finally {
                     sh "docker-compose down"
