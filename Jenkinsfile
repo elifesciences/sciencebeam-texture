@@ -14,7 +14,12 @@ elifePipeline {
             }
 
             stage 'Project tests', {
-                sh "./project_tests.sh"
+                try {
+                    sh "docker-compose up"
+                    sh "./project_tests.sh"
+                } finally {
+                    sh "docker-compose down"
+                }
             }
         },
         'containers--medium'
