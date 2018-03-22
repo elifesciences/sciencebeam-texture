@@ -1,0 +1,17 @@
+@import "../../definitions";
+
+.select {
+  @include margin(6, "bottom");
+
+  &:focus {
+    border-color: $color-text-placeholder;
+  }
+}
+
+.select--valid {
+  border-color: $color-success;
+}
+
+.select--error {
+  border-color: $color-attention;
+}

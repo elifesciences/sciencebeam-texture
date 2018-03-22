@@ -1,0 +1,117 @@
+@import "../../definitions";
+
+.site-header {
+  max-height: 96px;
+  min-width: #{get-rem-from-px(275)}rem;
+  position: relative;
+  z-index: 20;
+
+  .search-box {
+    background-color: #fff;
+    display: none;
+
+    &.search-box--js {
+      display: block;
+      position: absolute;
+      top: -20px;
+      transition: transform 150ms;
+      width: 100%;
+      z-index: 5;
+    }
+  }
+
+}
+
+.search-box__output {
+  background-color: #fff;
+  z-index: 10;
+}
+
+.search-box__search_option {
+  position: relative;
+  z-index: 5;
+}
+
+.site-header__title {
+  float: left;
+  position: relative;
+  z-index: 21;
+}
+
+.site-header__logo_link {
+  background: url("../img/patterns/organisms/elife-logo-symbol-1x.png") 0 0 no-repeat;
+  display: block;
+  height: 28px;
+  margin: 6px 0 0 3px;
+  width: 28px;
+
+  // Lock-out IE 11. Dirty :-(
+  @supports (display: flex) {
+    background: none;
+    height: 27px;
+  }
+
+}
+
+.site-header__logo_link_image {
+  display: none;
+
+  // Lock-out IE 11. Dirty :-(
+  @supports (display: flex) {
+    display: block;
+  }
+
+}
+
+.site-header__navigation {
+  background-color: #fff;
+  position: relative;
+  z-index: 20;
+}
+
+@media only all and (min-width: #{get-rem-from-px($bkpt-site--medium)}em) {
+
+  .site-header__title {
+    border-right: 1px solid $color-text-dividers;
+    float: left;
+    @include height(95);
+    margin-right: 10px;
+    @include margin(10, "right");
+    @include padding(14, "top");
+    @include padding(20, "right");
+    position: relative;
+    width: 170px;
+  }
+
+  // Stops the top border of .nav-primary from bleeding into .site-header__title.
+  .site-header__title:after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 95px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 169px;
+  }
+
+  .site-header__logo_link {
+    background: none;
+    display: block;
+    float: right;
+    height: 70px;
+    margin: 0;
+    position: relative;
+    width: 136px;
+    z-index: 10;
+  }
+
+  .site-header__logo_link_image {
+    display: block;
+  }
+}
+
+.overlay {
+  @include overlay();
+}
+

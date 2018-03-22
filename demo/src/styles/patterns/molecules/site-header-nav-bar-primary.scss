@@ -1,0 +1,92 @@
+@import "../../definitions";
+
+.nav-primary {
+  background-color: #fff;
+  border-top: 1px solid $color-text-dividers;
+  clear: right;
+  @include padding(0 5);
+  position: relative;
+  z-index: 10;
+}
+
+.nav-primary__list {
+  align-items: center;
+  display: table-cell;
+  @supports (display: flex) {
+    display: flex;
+  }
+  @include height(54);
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.nav-primary__item {
+  float: left;
+  @include nav-typeg();
+  list-style-type: none;
+  @include padding(0 24 0 0);
+  text-transform: uppercase;
+
+  &.nav-primary__item--inactive {
+    color: $color-text-dividers;
+
+    a {
+      pointer-events: none;
+    }
+  }
+}
+
+.nav-primary a:link,
+.nav-primary a:hover,
+.nav-primary a:active,
+.nav-primary a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-primary__item--search {
+  float: right;
+  margin-left: auto;
+  @include padding(8, "right");
+}
+
+.nav-primary__menu_icon {
+  border: none;
+  box-sizing: content-box;
+  display: block;
+  float: left;
+  height: 24px;
+  margin-top: -1px;
+  padding: 0 3px;
+  width: 24px;
+}
+
+.nav-primary__search_icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.nav-primary__menu_text {
+  @include padding(10, "bottom");
+  vertical-align: top;
+}
+
+@media only all and (max-width: 21.25rem) {
+  .nav-primary__menu_text {
+    padding-bottom: 0;
+    @include visuallyhidden();
+  }
+
+  .nav-primary__item--first {
+    padding: 0;
+  }
+
+  .nav-primary__menu_icon {
+    border: 1px solid $color-text-dividers;
+    border-radius: 5px;
+    @include margin(0 8 0 0);
+    margin-top: -3px;
+  }
+}

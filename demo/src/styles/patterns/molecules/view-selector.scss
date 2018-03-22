@@ -1,0 +1,209 @@
+@import "../../definitions";
+
+@mixin local-item-style {
+  font-family: $font-secondary;
+  @include font-size-and-vertical-height(14);
+  margin: 0;
+  @include blg-spacing("bottom", "extra-small", "margin");
+}
+
+.view-selector {
+  @include blg-spacing("bottom", "smallish", "margin");
+}
+
+.view-selector__list {
+  background-color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.view-selector__list-item {
+  @include local-item-style();
+}
+
+.view-selector__link {
+  display: block;
+  text-decoration: none;
+
+  span {
+    display: inline-block;
+  }
+
+  &:hover {
+    color: $color-text;
+  }
+}
+
+.view-selector__list-item--active {
+  color: $color-text;
+
+  .view-selector__link {
+    color: $color-text;
+  }
+
+}
+
+.view-selector__link {
+  color: $color-text-secondary;
+}
+
+.view-selector__jump_link {
+  color: $color-text-secondary;
+}
+
+.view-selector__jump_link--active {
+  color: $color-text;
+}
+
+.view-selector__jump_links_header {
+  color: $color-text-secondary;
+  display: block;
+  @include font-size(14);
+  @include blg-spacing("bottom", "extra-small", "margin");
+}
+
+.js .view-selector__jump_links_header {
+
+  $arrow-size: 5;
+
+  &:before {
+    @include arrow("down", $arrow-size, $color-text-secondary);
+    @include margin(-15, "left");
+    @include margin(-12, "right");
+    @include margin(9, "top");
+    display: block;
+    float: left;
+  }
+
+  &--closed:before {
+    @include arrow("right", $arrow-size, $color-text-secondary);
+    @include margin($arrow-size, "top");
+    @include margin(-12, "left");
+    @include margin(-12, "right");
+    @include margin(6, "top");
+  }
+
+}
+
+.view-selector__jump_links {
+  list-style: none;
+  @include nospace();
+  @include padding(18, "left");
+}
+
+.view-selector__jump_link_item {
+  @include local-item-style();
+}
+
+.view-selector__jump_link {
+  text-decoration: none;
+
+  &:hover {
+    color: $color-text;
+  }
+}
+
+@media only screen and (max-width: #{get-rem-from-px($bkpt-view-selector - 1)}em) {
+
+  .view-selector {
+    display: none;
+  }
+
+  .view-selector--has-figures {
+    display: inline-block;
+    width: 100%;
+    @supports (display: flex) {
+      display: flex;
+    }
+  }
+
+  .view-selector__list {
+    margin: auto;
+    @include constrain-width(375, "max");
+    width: 100%;
+  }
+
+  .view-selector__list-item {
+    border: 1px solid $color-text;
+    float: left;
+    margin: 0;
+    @include padding(0 6);
+    text-align: center;
+    width: 50%;
+  }
+
+  /** Selector nesting here because otherwise this all gets horrible quickly **/
+  .view-selector__list-item--article {
+    border-right: none;
+    @include border-radius-simple(4, 0, 0, 4);
+  }
+
+  .view-selector__list-item--figures {
+    border-left: none;
+    @include border-radius-simple(0, 4, 4, 0);
+  }
+
+  .view-selector__list-item--active {
+    background-color: $color-text;
+
+    .view-selector__link {
+      color: $color-text-ui-background;
+
+      &:hover {
+        cursor: default;
+      }
+
+    }
+  }
+
+  .view-selector__list-item--side-by-side {
+    display: none;
+  }
+
+  .view-selector__list-item--jump {
+    display: none;
+  }
+
+  .view-selector__link {
+    @include font-size-and-vertical-height(14, 36);
+    @include height(34);
+    @include nospace();
+    text-align: center;
+
+    span {
+      padding: 0;
+    }
+  }
+
+  .view-selector__link--figures {
+    color: $color-text;
+  }
+
+}
+
+@media only screen and (min-width: #{get-rem-from-px($bkpt-view-selector)}em) {
+
+  // Applied with js to stop the selector scrolling off the top of the screen.
+  .view-selector {
+    // Supply what was being provided by the grid now this element has been taken out the flow.
+    margin-left: -1.6vw;
+    @include constrain-width(210, "max");
+    padding-left: 1.6vw;
+    width: 16.666vw;
+  }
+
+  .view-selector--fixed {
+    max-height: 100vh;
+    min-height: 11rem;
+    overflow: auto;
+    @include padding(30, "top");
+    position: fixed;
+    top: 0;
+  }
+
+  .js .view-selector__jump_links_header:hover {
+    cursor: pointer;
+  }
+
+}

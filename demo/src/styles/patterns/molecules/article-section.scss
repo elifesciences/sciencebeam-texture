@@ -1,0 +1,151 @@
+@import "../../definitions";
+
+$arrow-size: 5;
+
+.article-section {
+
+  &--collapsed {
+    padding-bottom: 0;
+  }
+}
+
+.article-section--js {
+  clear: both;
+
+  @include blg-spacing("bottom", "medium", "margin");
+
+  border-top: 1px solid $color-text-dividers;
+  margin-top: -1px;
+
+  > .article-section__body {
+    @include blg-spacing("top", "small", "margin");
+  }
+}
+
+.article-section--collapsed {
+  @include nospace("bottom");
+}
+
+.article-section--first {
+  border: none;
+  padding-top: 0;
+
+  // Edge case: prevent space above the h2s of the first header  in the first article section
+  & .article-section__header:first-child h2 {
+    @include nospace("top");
+  }
+
+}
+
+.js .article-section--first {
+  @include blg-spacing("bottom", "medium", "margin");
+}
+
+.article-section__header {
+  position: relative;
+}
+
+// Introduced by ArticleSection.js
+.article-section__header_link {
+  text-decoration: none;
+
+  @supports (display: flex) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.article-section__header_text {
+  color: $color-text;
+  margin: 0;
+  flex: 1 0 80%;
+  text-decoration: none;
+}
+
+.article-section__header_link:after {
+  display: block;
+  @include arrow("down", $arrow-size);
+  @include height($arrow-size);
+  position: absolute;
+  right: 0;
+  top: 35px;
+  transform-origin: 50% 50%;
+  @include width($arrow-size);
+
+  @supports (display: flex) {
+    position: static;
+  }
+}
+
+.article-section__header_link--closed:after {
+  transform: rotate(-90deg);
+  @include margin(0 1 0 0);
+  top: 0;
+}
+
+.article-section__body {
+
+  @include body-typeg();
+
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  h6 {
+    margin: 0;
+  }
+
+  hr {
+    @include margin(0 0 15 0);
+  }
+
+  ul ul,
+  ol ol {
+    margin: 0;
+  }
+
+  .reference a {
+    color: $color-text;
+
+    &:hover {
+      color: $color-primary-dark;
+    }
+  }
+
+  .button-collection__button--active {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  abbr,
+  acronym {
+    cursor: help;
+  }
+
+  pre {
+    font-family: $font-monospace;
+    @include margin(0 0 15 0);
+  }
+
+}

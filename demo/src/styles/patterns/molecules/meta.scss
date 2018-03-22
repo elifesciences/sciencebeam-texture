@@ -1,0 +1,24 @@
+@import "../../definitions";
+
+// Also modified within @mixin article-with-background and the content header scss files.
+// Consider introducing .meta--variants and so moving content-header .meta rules to here.
+// (Would require a view model change though, so non-trivial).
+
+.meta {
+  @include label-content-typeg();
+
+  .highlights & {
+    @include truncate-with-ellipsis();
+  }
+}
+
+.meta__type {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.meta__type:hover {
+  color: $color-primary-dark;
+}
+

@@ -1,0 +1,30 @@
+@import "../../definitions";
+
+.section-listing-link {
+  border-bottom: 1px solid $color-text-dividers;
+  color: $color-text;
+  display: block;
+  font-family: $font-secondary;
+  @include font-size-and-vertical-height($font-size-base-in-px);
+  @include padding($blg-space-extra-small-in-px - 1, "top");
+  padding-right: 0;
+  @include blg-spacing("bottom", "extra-small");
+  padding-left: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  &:after {
+    content: "\00a\00bb";
+  }
+
+  // Needs specificity to override display property when unhidden
+  &.hidden {
+    @include hidden();
+  }
+}
+
+.section-listing-link:hover,
+.section-listing-link:active {
+  color: $color-primary;
+}

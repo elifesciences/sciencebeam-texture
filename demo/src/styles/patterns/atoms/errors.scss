@@ -1,0 +1,24 @@
+@import "../../definitions";
+
+.error-wrapper {
+  @include flexbox-centre-x-and-y();
+}
+
+.error {
+  @include wrapper();
+  text-align: center;
+  @include blg-pad-vertical-large-to-extra-large();
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.error__icon {
+  max-width: 100%;
+  @include blg-spacing("bottom", "small");
+}
+
+.error__title {
+  @include h2-typeg();
+}

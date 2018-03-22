@@ -1,0 +1,24 @@
+@import "../../definitions";
+
+.filter-group {
+  border: 0;
+  @include nospace();
+}
+
+.filter-group__title {
+  @include listing-main-subtitle-typeg();
+  @include blg-spacing("bottom", "extra-small");
+}
+
+.filter-group__filters {
+  list-style-type: none;
+  @include nospace("left");
+}
+
+.filter-group__filter_item {
+  @include font-size-and-vertical-height($font-size-base-in-px);
+}
+
+.filter-group__item_label {
+  @include checkbox-label();
+}
