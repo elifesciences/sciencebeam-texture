@@ -8,5 +8,6 @@ module.exports = {
     filename: "[name]-packed.js",
   },
   mode: 'development',
+  devtool: 'source-map'
 };
 
