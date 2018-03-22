@@ -10,3 +10,6 @@ RUN echo "cloning ${commit}" && \
   git checkout ${commit}
 WORKDIR /home/node/texture
 RUN npm install
+
+ARG dependencies_sciencebeam
+LABEL org.elifesciences.dependencies.sciencebeam="${dependencies_sciencebeam}"

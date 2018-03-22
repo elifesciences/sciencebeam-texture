@@ -4,21 +4,17 @@ services:
     texture:
         build:
             context: .
-            dockerfile: Dockerfile.texture
+            dockerfile: Dockerfile
             args:
                 commit: "${TEXTURE_COMMIT}"
-        image: elifesciences/sciencebeam_texture:${TEXTURE_COMMIT}
+                dependencies_sciencebeam: "${SCIENCEBEAM_COMMIT}"
+        image: elifesciences/sciencebeam_texture:${IMAGE_TAG}
         command: npm start
         volumes:
             - ./.temp/data:/home/node/texture/data
         ports:
             - "4000:4000"
     sciencebeam:
-        build:
-            context: .
-            dockerfile: Dockerfile.sciencebeam
-            args:
-                commit: "${SCIENCEBEAM_COMMIT}"
         image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
         command: ./server.sh \
             --host=0.0.0.0 --port=8075 \
@@ -29,7 +25,7 @@ services:
         depends_on:
             - grobid
     grobid:
-        image: lfoppiano/grobid:0.5.1
+        image: lfoppiano/grobid:${GROBID_TAG}
         ports:
             - "8070:8070"
 
