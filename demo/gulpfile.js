@@ -13,6 +13,10 @@ const sassGlob = require('gulp-sass-glob');
 const sourcemaps = require('gulp-sourcemaps');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
+const proxy = require('express-http-proxy');
+const url = require('url');
+
+const api_url = process.env.API_URL;
 
 const path = {
   srcDir: {
@@ -149,6 +153,20 @@ gulp.task('default', ['build']);
 gulp.task('server', () => {
   if (!server) {
     server = express();
+    if (api_url) {
+      gutil.log('proxying /api to', api_url);
+      const apiPath = url.parse(api_url).path;
+      const apiProxy = proxy('localhost:8075', {
+        proxyReqPathResolver: req => {
+          const targetUrl = url.parse(req.baseUrl).path.replace('/api', apiPath);
+          gutil.log('proxy request to', targetUrl);
+          return targetUrl;
+        }
+      });
+      server.use("/api/*", apiProxy);
+    } else {
+      gutil.log('no api url defined, not proxying api');
+    }
     server.use(express.static('./'));
     server.listen('8080');
     browserSync({proxy: 'localhost:8080', startPath: 'dist/index.html', browser: 'google chrome'});
