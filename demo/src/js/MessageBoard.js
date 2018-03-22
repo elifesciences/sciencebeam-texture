@@ -32,6 +32,10 @@ const MessageBoard = class MessageBoard {
   emitEvent(event) {
     this.$elm.dispatchEvent(event);
   }
+
+  clear() {
+    this.$elm.innerHTML = '';
+  }
 };
 
 export { MessageBoard as default };

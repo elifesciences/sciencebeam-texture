@@ -7,8 +7,8 @@ const FileHandler = class FileHandler {
   }
 
   storeTransformedFileData(data) {
-    this.window.localStorage.setItem('transformedFileData', JSON.stringify(data));
-    this.messageBoard.announceSuccess('File data processed, storing in local storage');
+    this.window.localStorage.transformedFileData = JSON.stringify(data);
+    this.messageBoard.announceSuccess('File data processed, stored in local storage');
   }
 
   postFileData(data) {
@@ -18,7 +18,6 @@ const FileHandler = class FileHandler {
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
       xhr.enctype = 'text/plain';
       xhr.onload = () => {
-        this.window.console.log('xhr.status', xhr.status);
         if (xhr.status >= 200 && xhr.status < 400) {
           resolve(xhr.responseText);
         } else {

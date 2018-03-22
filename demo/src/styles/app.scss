@@ -15,7 +15,7 @@ input {
 }
 
 .message {
-  @include font-size-and-vertical-height(14, 24);
+  @include typeg-form-message();
 }
 
 .message--success {
