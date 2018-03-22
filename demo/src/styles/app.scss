@@ -1,3 +1,10 @@
+@import "definitions";
+
 body:not(.js) .js-only {
   display: none;
+}
+
+.busy:before {
+  content: "";
+  @include loading-spinner($highlight-color: $color-text--reverse, $base-color: #81c4e8);
 }
