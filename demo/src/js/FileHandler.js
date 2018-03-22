@@ -22,7 +22,7 @@ const FileHandler = class FileHandler {
         if (xhr.status >= 200 && xhr.status < 400) {
           resolve(xhr.responseText);
         } else {
-          reject(new Error(`XHR failed: "${xhr.statusText}"`));
+          reject(new Error(`XHR failed: "${xhr.status}: ${xhr.statusText}"`));
         }
       };
       xhr.onerror = () => reject(xhr.statusText);
