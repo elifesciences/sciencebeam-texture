@@ -7,7 +7,7 @@ const FileHandler = class FileHandler {
   }
 
   storeTransformedFileData(data) {
-    this.window.localStorage.setItem('transformedFileData', data);
+    this.window.localStorage.setItem('transformedFileData', JSON.stringify(data));
     this.messageBoard.showIdle();
   }
 
