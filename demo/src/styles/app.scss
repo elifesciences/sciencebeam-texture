@@ -1,1 +1,3 @@
-// stuff goes here
+body:not(.js) .js-only {
+  display: none;
+}
