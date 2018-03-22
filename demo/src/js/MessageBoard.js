@@ -17,11 +17,11 @@ const MessageBoard = class MessageBoard {
     this.$elm.classList.remove('busy');
   }
 
-  updateWithError(message) {
+  announceError(message) {
     this.update(message, 'message--error');
   }
 
-  updateWithSuccess(message) {
+  announceSuccess(message) {
     this.update(message, 'message--success');
   }
 
