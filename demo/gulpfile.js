@@ -167,9 +167,9 @@ gulp.task('server', () => {
     } else {
       gutil.log('no api url defined, not proxying api');
     }
-    server.use(express.static('./'));
+    server.use(express.static('./dist/'));
     server.listen('8080');
-    browserSync({proxy: 'localhost:8080', startPath: 'dist/index.html', browser: 'google chrome'});
+    browserSync({proxy: 'localhost:8080', startPath: 'index.html', browser: 'google chrome'});
   } else {
     return gutil.noop;
   }
