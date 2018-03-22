@@ -11,12 +11,11 @@ const FileHandler = class FileHandler {
     this.messageBoard.announceSuccess('File data processed, stored in local storage');
   }
 
-  postFileData(data) {
+  postFileData(data, filename) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open('POST', '[REPLACE ME WITH THE CORRECT URL]');
+      xhr.open('POST', '/api/convert');
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-      xhr.enctype = 'text/plain';
       xhr.onload = () => {
         if (xhr.status >= 200 && xhr.status < 400) {
           resolve(xhr.responseText);
@@ -25,12 +24,15 @@ const FileHandler = class FileHandler {
         }
       };
       xhr.onerror = () => reject(xhr.statusText);
-      xhr.send(data);
+      const blob = new Blob([data], { type: 'application/pdf' });
+      const formData = new FormData();
+      formData.append('file', blob, filename);
+      xhr.send(formData);
     });
   }
 
   handleFileData(data, filename) {
-    const getResponseToFile = this.postFileData(data);
+    const getResponseToFile = this.postFileData(data, filename);
     getResponseToFile.then((responseData) => {
       this.storeTransformedFileData(responseData);
       this.messageBoard.emitEvent(new CustomEvent('datastored', { detail: filename }));
@@ -49,7 +51,7 @@ const FileHandler = class FileHandler {
       this.handleFileData(e.currentTarget.result, file.name);
     };
 
-    reader.readAsText(file);
+    reader.readAsArrayBuffer(file);
   }
 };
 
