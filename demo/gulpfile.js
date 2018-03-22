@@ -48,7 +48,7 @@ gulp.task('sass:clean', () => {
   del([`${path.out.css}/*`]);
 });
 
-gulp.task('img', ['img:clean'], () => {
+gulp.task('img', () => {
   return gulp.src(`${path.srcDir.images}/**/*`)
       .pipe(imagemin({
         progressive: true,
