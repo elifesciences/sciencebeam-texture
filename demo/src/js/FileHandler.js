@@ -29,10 +29,10 @@ const FileHandler = class FileHandler {
     });
 
     getResponseToFile.then((responseData) => {
-      this.messageBoard.update('File data processed, storing in local storage');
+      this.messageBoard.updateWithSuccess('File data processed, storing in local storage');
       this.storeTransformedFileData(responseData);
     }).catch((reason) => {
-      this.messageBoard.update(`Failed to process file due to a network problem. ${reason}`);
+      this.messageBoard.updateWithError(`Failed to process file due to a network problem. ${reason}`);
       this.messageBoard.showIdle();
     });
   }
@@ -41,7 +41,7 @@ const FileHandler = class FileHandler {
     this.messageBoard.showBusy();
     const reader = new FileReader();
     reader.onload = (e) => {
-      this.messageBoard.update(`Read file ${file.name}`);
+      this.messageBoard.updateWithSuccess(`Read file "${file.name}"`);
       this.handleFileData(e.currentTarget.result);
     };
 

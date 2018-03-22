@@ -4,7 +4,29 @@ body:not(.js) .js-only {
   display: none;
 }
 
+input {
+  @include font-size-and-vertical-height($font-size-base-in-px);
+}
+
 .busy:before {
   content: "";
+  float: right;
   @include loading-spinner($highlight-color: $color-text--reverse, $base-color: #81c4e8);
+}
+
+.message {
+  line-height: 24px;
+}
+
+.message--success {
+    color: $color-success;
+}
+
+.message--error {
+  color: $color-attention;
+}
+
+section {
+  border: 1px solid $color-text-dividers;
+  padding: 1rem;
 }

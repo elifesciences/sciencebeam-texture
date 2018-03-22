@@ -17,8 +17,16 @@ const MessageBoard = class MessageBoard {
     this.$elm.classList.remove('busy');
   }
 
-  update(message) {
-    this.$elm.innerHTML += `<br />${message}`;
+  updateWithError(message) {
+    this.update(message, 'message--error');
+  }
+
+  updateWithSuccess(message) {
+    this.update(message, 'message--success');
+  }
+
+  update(message, cssClass = '') {
+    this.$elm.innerHTML += `<div class="message ${cssClass}">${message}</div>`;
   }
 };
 
