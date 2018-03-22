@@ -30,10 +30,11 @@ const FileHandler = class FileHandler {
     });
   }
 
-  handleFileData(data) {
+  handleFileData(data, filename) {
     const getResponseToFile = this.postFileData(data);
     getResponseToFile.then((responseData) => {
       this.storeTransformedFileData(responseData);
+      this.messageBoard.emitEvent(new CustomEvent('datastored', { detail: filename }));
       this.messageBoard.showIdle();
     }).catch((reason) => {
       this.messageBoard.announceError(`Failed to process file due to a network problem. ${reason}`);
@@ -46,7 +47,7 @@ const FileHandler = class FileHandler {
     const reader = new FileReader();
     reader.onload = (e) => {
       this.messageBoard.announceSuccess(`Successfully read file "${file.name}"`);
-      this.handleFileData(e.currentTarget.result);
+      this.handleFileData(e.currentTarget.result, file.name);
     };
 
     reader.readAsText(file);
