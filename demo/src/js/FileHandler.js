@@ -17,7 +17,13 @@ const FileHandler = class FileHandler {
       xhr.open('POST', '[REPLACE ME WITH THE CORRECT URL]');
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
       xhr.enctype = 'text/plain';
-      xhr.onload = () => resolve(xhr.responseText);
+      xhr.onload = () => {
+        if (this.status >= 200 && this.status < 400) {
+          resolve(xhr.responseText);
+        } else {
+          reject(new Error(`XHR failed: "${xhr.statusText}"`));
+        }
+      };
       xhr.onerror = () => reject(xhr.statusText);
       xhr.send(data);
     });
