@@ -11,6 +11,8 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 const sourcemaps = require('gulp-sourcemaps');
+const webpack = require('webpack');
+const webpackConfig = require('./webpack.config');
 
 const path = {
   srcDir: {
@@ -83,18 +85,40 @@ gulp.task('markup:clean', () => {
   del([`${path.out.markup}/*.html`]);
 });
 
-gulp.task('js', ['js:lint'], () => {
-  return gulp.src(`${path.srcDir.js}/*.js`)
-             .pipe(gulp.dest(path.out.js))
-             .pipe(reload());
+gulp.task('js', ['webpack'], () => {
+  gulp.src('.').pipe(reload());
 });
 
+gulp.task('webpack', ['js:lint'], function (callback) {
 
-gulp.task('js:lint', () => {
+  webpack(webpackConfig, function (err, stats) {
+    if (err)
+      throw new gutil.PluginError('webpack:build', err);
+    gutil.log('[webpack:build] Completed\n' + stats.toString(
+      {
+        assets: true,
+        chunks: false,
+        chunkModules: false,
+        colors: true,
+        hash: false,
+        timings: false,
+        version: false
+      }
+    ));
+  callback();
+  });
+
+});
+
+gulp.task('js:lint', ['js:clean'], () => {
   return gulp.src(`${path.srcDir.js}/*.js`)
              .pipe(eslint())
              .pipe(eslint.format())
              .pipe(eslint.failAfterError());
+});
+
+gulp.task('js:clean', () => {
+  del([`${path.out.js}/*`]);
 });
 
 gulp.task('sass:watch', () => {
