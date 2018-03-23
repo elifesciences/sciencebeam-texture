@@ -70,7 +70,7 @@ gulp.task('img:clean', () => {
 });
 
 gulp.task('fonts', ['fonts:clean'], () => {
-  return gulp.src(`${path.srcDir.fonts}/*`)
+  return gulp.src(`${path.srcDir.fonts}/**/*`)
              .pipe(gulp.dest(path.out.fonts))
              .pipe(reload());
 });
