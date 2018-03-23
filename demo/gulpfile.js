@@ -155,8 +155,9 @@ gulp.task('server', () => {
     server = express();
     if (api_url) {
       gutil.log('proxying /api to', api_url);
-      const apiPath = url.parse(api_url).path;
-      const apiProxy = proxy('localhost:8075', {
+      const parsedApiUrl = url.parse(api_url);
+      const apiPath = parsedApiUrl.path;
+      const apiProxy = proxy(parsedApiUrl.host, {
         proxyReqPathResolver: req => {
           const targetUrl = url.parse(req.baseUrl).path.replace('/api', apiPath);
           gutil.log('proxy request to', targetUrl);
