@@ -147,6 +147,9 @@ class ScienceBeamTextureEditor extends Component {
 }
 
 window.addEventListener('datastored', () => {
-  substanceGlobals.DEBUG_RENDERING = platform.devtools
-  ScienceBeamTextureEditor.mount({}, window.document.body)
+  substanceGlobals.DEBUG_RENDERING = platform.devtools;
+  ScienceBeamTextureEditor.mount({}, window.document.body);
+  window.setTimeout(() => {
+    document.querySelector('.grid').appendChild(document.querySelector('.sc-app'));
+  }, 200);
 });
