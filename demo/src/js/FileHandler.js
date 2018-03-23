@@ -14,8 +14,9 @@ const FileHandler = class FileHandler {
   postFileData(data, filename) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open('POST', '/api/convert');
+      xhr.open('POST', `/api/convert?filename=${encodeURIComponent(filename)}`);
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.setRequestHeader('Content-Type', 'application/pdf');
       xhr.onload = () => {
         if (xhr.status >= 200 && xhr.status < 400) {
           resolve(xhr.responseText);
@@ -24,10 +25,7 @@ const FileHandler = class FileHandler {
         }
       };
       xhr.onerror = () => reject(xhr.statusText);
-      const blob = new Blob([data], { type: 'application/pdf' });
-      const formData = new FormData();
-      formData.append('file', blob, filename);
-      xhr.send(formData);
+      xhr.send(data);
     });
   }
 
