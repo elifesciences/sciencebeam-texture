@@ -93,7 +93,7 @@ gulp.task('js', ['webpack'], () => {
   gulp.src('.').pipe(reload());
 });
 
-gulp.task('webpack', ['js:lint'], function (callback) {
+gulp.task('webpack', [/*'js:lint'*/], function (callback) {
 
   webpack(webpackConfig, function (err, stats) {
     if (err)

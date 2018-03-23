@@ -2,6 +2,7 @@
 
 import FileHandler from './FileHandler';
 import MessageBoard from './MessageBoard';
+import './Editor';
 
 document.querySelector('body').classList.add('js');
 

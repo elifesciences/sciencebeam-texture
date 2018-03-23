@@ -10,8 +10,8 @@ services:
                 dependencies_sciencebeam: "${SCIENCEBEAM_COMMIT}"
         image: elifesciences/sciencebeam_texture:${IMAGE_TAG}
         command: npm start
-        volumes:
-            - ./.temp/data:/home/node/texture/data
+#        volumes:
+#            - ./.temp/data:/home/node/texture/data
         ports:
             - "4000:4000"
     sciencebeam:
