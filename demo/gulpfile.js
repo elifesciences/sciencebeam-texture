@@ -37,12 +37,22 @@ const path = {
 
 let server;
 
-gulp.task('sass', ['sass:clean'], () => {
+gulp.task('sass', ['sass:vendor'], () => {
   return gulp.src(`${path.srcDir.scss}/build.scss`)
              .pipe(sourcemaps.init())
              .pipe(sassGlob())
              .pipe(sass())
              .pipe(rename('all.css'))
+             .pipe(sourcemaps.write('./'))
+             .pipe(gulp.dest(`${path.out.css}`))
+             .pipe(reload());
+});
+
+gulp.task('sass:vendor', ['sass:clean'], () => {
+  return gulp.src(`${path.srcDir.scss}/vendor.scss`)
+             .pipe(sourcemaps.init())
+             .pipe(sassGlob())
+             .pipe(sass())
              .pipe(sourcemaps.write('./'))
              .pipe(gulp.dest(`${path.out.css}`))
              .pipe(reload());
