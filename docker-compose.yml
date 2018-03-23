@@ -6,12 +6,9 @@ services:
             context: .
             dockerfile: Dockerfile
             args:
-                commit: "${TEXTURE_COMMIT}"
                 dependencies_sciencebeam: "${SCIENCEBEAM_COMMIT}"
         image: elifesciences/sciencebeam_texture:${IMAGE_TAG}
-        command: npm start
-#        volumes:
-#            - ./.temp/data:/home/node/texture/data
+        command: npm run start:prod
         ports:
             - "4000:4000"
     sciencebeam:

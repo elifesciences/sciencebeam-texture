@@ -1,15 +1,18 @@
 FROM node:9.8.0-stretch AS texture
 
 USER node
-WORKDIR /home/node
+ENV HOME=/home/node
 
-ARG commit
-RUN echo "cloning ${commit}" && \
-  git clone https://github.com/substance/texture.git && \
-  cd texture && \
-  git checkout ${commit}
-WORKDIR /home/node/texture
+ENV PROJECT_DIR=${HOME}/sciencebeam-texture
+
+RUN mkdir ${PROJECT_DIR}
+WORKDIR ${PROJECT_DIR}
+
+COPY --chown=node:node demo/package.json ${PROJECT_DIR}/
 RUN npm install
+
+COPY --chown=node:node demo ${PROJECT_DIR}/
+RUN npm run build
 
 HEALTHCHECK --interval=10s --timeout=10s --retries=3 CMD curl -v --fail http://localhost:4000
 ARG dependencies_sciencebeam
