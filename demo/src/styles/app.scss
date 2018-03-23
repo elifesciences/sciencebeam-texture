@@ -39,5 +39,6 @@ section {
 }
 
 .sc-app {
-  height: 100vh;
+  @include blg-spacing("top", "medium");
+  height: 400vh;
 }
