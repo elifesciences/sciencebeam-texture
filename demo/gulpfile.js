@@ -15,6 +15,7 @@ const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 const proxy = require('express-http-proxy');
 const url = require('url');
+const bodyParser = require('body-parser');
 
 const api_url = process.env.API_URL;
 
@@ -164,6 +165,7 @@ gulp.task('server', () => {
           return targetUrl;
         }
       });
+      server.use(bodyParser.raw({limit: '50mb', type: 'application/pdf'}));
       server.use("/api/*", apiProxy);
     } else {
       gutil.log('no api url defined, not proxying api');

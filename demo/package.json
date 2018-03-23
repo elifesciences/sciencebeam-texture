@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/elifesciences/sciencebeam-texture#readme",
   "devDependencies": {
+    "body-parser": "^1.18.2",
     "browser-sync": "^2.23.6",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
