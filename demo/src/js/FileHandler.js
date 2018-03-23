@@ -14,7 +14,7 @@ const FileHandler = class FileHandler {
   postFileData(data, filename) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open('POST', `/api/convert?filename=${encodeURIComponent(filename)}`);
+      xhr.open('POST', `http://localhost:8075/api/convert?filename=${encodeURIComponent(filename)}`);
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
       xhr.setRequestHeader('Content-Type', 'application/pdf');
       xhr.onload = () => {
