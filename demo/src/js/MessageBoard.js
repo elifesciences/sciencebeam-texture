@@ -1,12 +1,13 @@
 'use strict';
 
 const MessageBoard = class MessageBoard {
-  constructor($elm) {
+  constructor($elm, window) {
     if (!$elm) {
       return;
     }
 
     this.$elm = $elm;
+    this.window = window;
   }
 
   showBusy() {
@@ -30,7 +31,7 @@ const MessageBoard = class MessageBoard {
   }
 
   emitEvent(event) {
-    this.$elm.dispatchEvent(event);
+    this.window.dispatchEvent(event);
   }
 
   clear() {

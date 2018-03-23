@@ -6,7 +6,7 @@ import './Editor';
 
 document.querySelector('body').classList.add('js');
 
-const messageBoard = new MessageBoard(document.querySelector('#messageBoard'));
+const messageBoard = new MessageBoard(document.querySelector('#messageBoard'), window);
 const fileHandler = new FileHandler(window, messageBoard);
 document.querySelector('#filePicker').addEventListener('change', (e) => {
   messageBoard.clear();
