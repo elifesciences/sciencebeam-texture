@@ -17,7 +17,7 @@ const proxy = require('express-http-proxy');
 const url = require('url');
 const bodyParser = require('body-parser');
 
-const apiUrl = process.env.API_URL;
+const proxyToApiUrl = process.env.PROXY_TO_API_URL;
 const demoPort = process.env.DEMO_PORT || '8080';
 const nodeEnv = process.env.NODE_ENV || 'development';
 
@@ -166,9 +166,9 @@ gulp.task('default', ['build']);
 gulp.task('server', () => {
   if (!server) {
     server = express();
-    if (apiUrl) {
-      gutil.log('proxying /api to', apiUrl);
-      const parsedApiUrl = url.parse(apiUrl);
+    if (proxyToApiUrl) {
+      gutil.log('proxying /api to', proxyToApiUrl);
+      const parsedApiUrl = url.parse(proxyToApiUrl);
       const apiPath = parsedApiUrl.path;
       const apiProxy = proxy(parsedApiUrl.host, {
         proxyReqPathResolver: req => {
