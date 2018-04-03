@@ -27,14 +27,16 @@ const path = {
     js: 'src/js',
     markup: 'src',
     images: 'src/img',
-    fonts: 'src/fonts'
+    fonts: 'src/fonts',
+    exampleData: 'src/example-data'
   },
   out: {
     css: 'dist/css',
     markup: 'dist',
     js: 'dist/js',
     images: 'dist/img',
-    fonts: 'dist/fonts'
+    fonts: 'dist/fonts',
+    exampleData: 'dist/example-data'
   }
 };
 
@@ -89,6 +91,16 @@ gulp.task('fonts', ['fonts:clean'], () => {
 });
 
 gulp.task('fonts:clean', () => {
+  del([`${path.out.fonts}/*`]);
+});
+
+gulp.task('exampleData', ['exampleData:clean'], () => {
+  return gulp.src(`${path.srcDir.exampleData}/**/*`)
+             .pipe(gulp.dest(path.out.exampleData))
+             .pipe(reload());
+});
+
+gulp.task('exampleData:clean', () => {
   del([`${path.out.fonts}/*`]);
 });
 
@@ -150,6 +162,10 @@ gulp.task('fonts:watch', () => {
   gulp.watch(`${path.srcDir.fonts}/*`, ['fonts']);
 });
 
+gulp.task('exampleData:watch', () => {
+  gulp.watch(`${path.srcDir.exampleData}/*`, ['exampleData']);
+});
+
 gulp.task('js:watch', () => {
   gulp.watch([`${path.srcDir.js}**/*`], ['js']);
 });
@@ -159,8 +175,11 @@ gulp.task('markup:watch', () => {
 });
 
 // Task sets
-gulp.task('watch', ['sass:watch', 'img:watch', 'js:watch', 'fonts:watch', 'markup:watch', 'server']);
-gulp.task('build', ['sass', 'img', 'fonts', 'js', 'markup']);
+gulp.task('watch', [
+  'sass:watch', 'img:watch', 'js:watch', 'fonts:watch', 'exampleData:watch',
+  'markup:watch', 'server'
+]);
+gulp.task('build', ['sass', 'img', 'fonts', 'exampleData', 'js', 'markup']);
 gulp.task('default', ['build']);
 
 gulp.task('server', () => {

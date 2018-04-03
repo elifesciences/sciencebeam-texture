@@ -2,6 +2,7 @@
 
 import FileHandler from './FileHandler';
 import MessageBoard from './MessageBoard';
+import ShowExampleLink from './ShowExampleLink';
 import './Editor';
 
 document.querySelector('body').classList.add('js');
@@ -13,3 +14,9 @@ document.querySelector('#filePicker').addEventListener('change', (e) => {
   fileHandler.handleUpload(e.target.files[0]);
 });
 
+const xmlBaseUrl = '/example-data';
+
+document.querySelectorAll('#example-links .example-link').forEach(link => new ShowExampleLink(
+  link, link.href,
+  window, messageBoard
+));
