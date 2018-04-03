@@ -1,6 +1,6 @@
 import {
-  getQueryStringParam, Component, DefaultDOMElement, parseKeyEvent,
-  HttpStorageClient, VfsStorageClient, InMemoryDarBuffer, substanceGlobals,
+  Component, DefaultDOMElement, parseKeyEvent,
+  InMemoryDarBuffer, substanceGlobals,
   platform
 } from 'substance'
 import {
@@ -32,6 +32,7 @@ class ScienceBeamTextureEditor extends Component {
     let el = $$('div').addClass('sc-app')
     let archive = this.state.archive
     let err = this.state.error
+    console.log('render, filename:', this.props.filename);
     console.log('render, archive:', archive);
 
     if (archive) {
@@ -82,30 +83,30 @@ class ScienceBeamTextureEditor extends Component {
     };
   }
 
-  _init() {
-    let archiveId = getQueryStringParam('archive') || 'blank'
-    let storageType = getQueryStringParam('storage') || 'http'
-    let storageUrl = getQueryStringParam('storageUrl') || '/archives'
+  reloadArchive() {
     let storage = this.localStorageClient();
 
-    let buffer = new InMemoryDarBuffer()
-    let archive = new TextureArchive(storage, buffer)
+    let buffer = new InMemoryDarBuffer();
+    let archive = new TextureArchive(storage, buffer);
 
-    let promise = archive.load(archiveId)
+    let promise = archive.load('dummy')
                          .then(() => {
                            setTimeout(() => {
                              console.log('archive loaded:', archive);
                              this.setState({archive})
                            }, 0)
-                         })
+                         });
 
     if (!platform.devtools) {
       promise.catch(error => {
-        console.error(error)
-        this.setState({error})
+        console.error(error);
+        this.setState({error});
       })
     }
+  }
 
+  _init() {
+    this.reloadArchive();
   }
 
   /*
@@ -146,10 +147,22 @@ class ScienceBeamTextureEditor extends Component {
   }
 }
 
-window.addEventListener('datastored', () => {
+let editor;
+
+const showEditor = filename => {
+  if (!editor) {
+    editor = ScienceBeamTextureEditor.mount({filename}, window.document.body);
+    window.setTimeout(() => {
+      document.querySelector('.grid').appendChild(document.querySelector('.sc-app'));
+    }, 200);
+  } else {
+    editor.setProps({filename});
+    editor.reloadArchive();
+  }
+};
+
+window.addEventListener('datastored', event => {
   substanceGlobals.DEBUG_RENDERING = platform.devtools;
-  ScienceBeamTextureEditor.mount({}, window.document.body);
-  window.setTimeout(() => {
-    document.querySelector('.grid').appendChild(document.querySelector('.sc-app'));
-  }, 200);
+  const filename = event.detail;
+  showEditor(filename);
 });
