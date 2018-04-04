@@ -1,1 +1,80 @@
-<article article-type="research-article"><front><journal-meta><journal-title-group><journal-title>BMJ Global Health</journal-title></journal-title-group></journal-meta><article-meta><title-group><article-title>Proactive community case management and child survival in periurban Mali</article-title></title-group><contrib-group content-type="author"><contrib contrib-type="person"><name><surname>Johnson</surname><given-names>Ari D</given-names></name></contrib><contrib contrib-type="person"><name><surname>Thiero</surname><given-names>Oumar</given-names></name></contrib><contrib contrib-type="person"><name><surname>Whidden</surname><given-names>Caroline</given-names></name></contrib><contrib contrib-type="person"><name><surname>Poudiougou</surname><given-names>Belco</given-names></name></contrib><contrib contrib-type="person"><name><surname>Diakit&#233;</surname><given-names>Djoum&#233;</given-names></name></contrib><contrib contrib-type="person"><name><surname>Traor&#233;</surname><given-names>Fouss&#233;ni</given-names></name></contrib><contrib contrib-type="person"><name><surname>Samak&#233;</surname><given-names>Salif</given-names></name></contrib><contrib contrib-type="person"><name><surname>Kon&#233;</surname><given-names>Diakalia</given-names></name></contrib><contrib contrib-type="person"><name><surname>Ciss&#233;</surname><given-names>Ibrahim</given-names></name></contrib><contrib contrib-type="person"><name><surname>Kayentao</surname><given-names>Kassoum</given-names></name></contrib></contrib-group><abstract/></article-meta></front><body/><back/></article>
+<?xml version="1.0"?>
+<article article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>BMJ Global Health</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Proactive community case management and child survival in periurban Mali</article-title>
+      </title-group>
+      <contrib-group content-type="author">
+        <contrib contrib-type="person">
+          <name>
+            <surname>Johnson</surname>
+            <given-names>Ari D</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Thiero</surname>
+            <given-names>Oumar</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Whidden</surname>
+            <given-names>Caroline</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Poudiougou</surname>
+            <given-names>Belco</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Diakit&#xE9;</surname>
+            <given-names>Djoum&#xE9;</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Traor&#xE9;</surname>
+            <given-names>Fouss&#xE9;ni</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Samak&#xE9;</surname>
+            <given-names>Salif</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Kon&#xE9;</surname>
+            <given-names>Diakalia</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Ciss&#xE9;</surname>
+            <given-names>Ibrahim</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="person">
+          <name>
+            <surname>Kayentao</surname>
+            <given-names>Kassoum</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <abstract/>
+    </article-meta>
+  </front>
+  <body/>
+  <back/>
+</article>

@@ -14,6 +14,8 @@ CONVERT_API_URL=http://localhost:8075/api/convert
 
 echo "Converting $pdf_file to $output_xml_file"
 
-curl --fail --show-error --form "file=@${pdf_file};filename=${pdf_file}" \
-  -o "${output_xml_file}" --silent $CONVERT_API_URL
-
+curl --fail --show-error --form "file=@$pdf_file;filename=$pdf_file" \
+  --silent $CONVERT_API_URL \
+  | sed 's/\x00*$//' \
+  | xmllint --format - \
+  > "$output_xml_file"
