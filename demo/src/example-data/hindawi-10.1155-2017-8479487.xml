@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <article article-type="research-article">
   <front>
     <journal-meta>
@@ -27,8 +26,8 @@
         <country>South Africa</country>
       </aff>
       <abstract>
-        <p>Saturation current (I 0) and ideality factor (n) of a p-n junction solar cell are an indication of the quality of the cell. These two parameters are usually estimated from dark current-voltage measurements. In this study, a quick and easy method to determine these two parameters by measuring open-circuit, V oc , and short-circuit current, I sc , is presented. Solar cell designers can use this method as a grading or diagnostic tool to evaluate degradation in photovoltaic (PV) modules. In order to verify the V oc-I sc method, a series of experiments have been conducted on a single cell and a 36-cell module. Good agreement between our V oc-I sc method and dark I-V measurements was obtained. An application of the method on the performance degradation of a single-junction a-Si:H module revealed that the module's I 0 increased by more than three orders of magnitude and n increased by 65% after an outdoor exposure of 130 kWh/m 2. This increase in n indicates that after exposure, the recombination current in the cells' space charge region increased due to the light-induced formation of metastable defects. The method is also used to assess the quality of five PV module technologies and proved to be reliable despite defective cells in a module.</p>
-      </abstract>
+				<p>Saturation current (I 0) and ideality factor (n) of a p-n junction solar cell are an indication of the quality of the cell. These two parameters are usually estimated from dark current-voltage measurements. In this study, a quick and easy method to determine these two parameters by measuring open-circuit, V oc , and short-circuit current, I sc , is presented. Solar cell designers can use this method as a grading or diagnostic tool to evaluate degradation in photovoltaic (PV) modules. In order to verify the V oc-I sc method, a series of experiments have been conducted on a single cell and a 36-cell module. Good agreement between our V oc-I sc method and dark I-V measurements was obtained. An application of the method on the performance degradation of a single-junction a-Si:H module revealed that the module's I 0 increased by more than three orders of magnitude and n increased by 65% after an outdoor exposure of 130 kWh/m 2. This increase in n indicates that after exposure, the recombination current in the cells' space charge region increased due to the light-induced formation of metastable defects. The method is also used to assess the quality of five PV module technologies and proved to be reliable despite defective cells in a module.</p>
+			</abstract>
     </article-meta>
   </front>
   <body/>

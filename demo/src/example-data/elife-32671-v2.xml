@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <article article-type="research-article">
   <front>
     <article-meta>
@@ -79,8 +78,8 @@
         <country>United States</country>
       </aff>
       <abstract>
-        <p>The simultaneous imaging and manipulating of neural activity could enable the functional dissection of neural circuits. Here we have combined two-photon optogenetics with simultaneous volumetric two-photon calcium imaging to measure and manipulate neural activity in mouse neocortex in vivo in three-dimensions (3D) with cellular resolution. Using a hybrid holographic approach, we simultaneously photostimulate more than 80 neurons over 150 mm in depth in layer 2/3 of the mouse visual cortex, while simultaneously imaging the activity of the surrounding neurons. We validate the usefulness of the method by photoactivating in 3D selected groups of interneurons, suppressing the response of nearby pyramidal neurons to visual stimuli in awake animals. Our all-optical approach could be used as a general platform to read and write neuronal activity.</p>
-      </abstract>
+				<p>The simultaneous imaging and manipulating of neural activity could enable the functional dissection of neural circuits. Here we have combined two-photon optogenetics with simultaneous volumetric two-photon calcium imaging to measure and manipulate neural activity in mouse neocortex in vivo in three-dimensions (3D) with cellular resolution. Using a hybrid holographic approach, we simultaneously photostimulate more than 80 neurons over 150 mm in depth in layer 2/3 of the mouse visual cortex, while simultaneously imaging the activity of the surrounding neurons. We validate the usefulness of the method by photoactivating in 3D selected groups of interneurons, suppressing the response of nearby pyramidal neurons to visual stimuli in awake animals. Our all-optical approach could be used as a general platform to read and write neuronal activity.</p>
+			</abstract>
     </article-meta>
   </front>
   <body/>

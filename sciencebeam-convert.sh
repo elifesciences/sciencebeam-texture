@@ -17,5 +17,4 @@ echo "Converting $pdf_file to $output_xml_file"
 curl --fail --show-error --form "file=@$pdf_file;filename=$pdf_file" \
   --silent $CONVERT_API_URL \
   | sed 's/\x00*$//' \
-  | xmllint --format - \
   > "$output_xml_file"
