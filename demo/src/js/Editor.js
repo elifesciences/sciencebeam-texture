@@ -149,15 +149,21 @@ class ScienceBeamTextureEditor extends Component {
 
 let editor;
 
+const scrollEditorIntoView = () => {
+  document.querySelector('.sc-app').scrollIntoView();
+};
+
 const showEditor = filename => {
   if (!editor) {
     editor = ScienceBeamTextureEditor.mount({filename}, window.document.body);
     window.setTimeout(() => {
       document.querySelector('.grid').appendChild(document.querySelector('.sc-app'));
+      scrollEditorIntoView();
     }, 200);
   } else {
     editor.setProps({filename});
     editor.reloadArchive();
+    scrollEditorIntoView();
   }
 };
 
