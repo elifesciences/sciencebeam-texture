@@ -1,6 +1,14 @@
 version: '3'
 
 services:
+    web:
+        image: nginx:1.13.7
+        ports:
+            - "8000:80"
+        volumes:
+            - ./config/nginx-default.conf:/etc/nginx/conf.d/default.conf
+        depends_on:
+            - texture
     texture:
         build:
             context: .
@@ -11,6 +19,8 @@ services:
         command: npm run start:prod
         ports:
             - "4000:4000"
+        depends_on:
+            - sciencebeam
     sciencebeam:
         image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
         command: ./server.sh \
@@ -19,6 +29,9 @@ services:
             --grobid-action /processHeaderDocument
         ports:
             - "8075:8075"
+        networks:
+            - default
+            - grobid
         depends_on:
             - grobid
     grobid:
@@ -27,5 +40,11 @@ services:
             - JAVA_OPTS=-Xmx1g
         ports:
             - "8070:8070"
+        networks:
+            - grobid
 
-
+networks:
+    default:
+        internal: false
+    grobid:
+        internal: true
