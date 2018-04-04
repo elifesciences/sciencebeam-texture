@@ -2,12 +2,12 @@
   <front>
     <journal-meta>
       <journal-title-group>
-        <journal-title>BMJ Global Health</journal-title>
+        <journal-title>BMJ Glob Health</journal-title>
       </journal-title-group>
     </journal-meta>
     <article-meta>
       <title-group>
-        <article-title>Proactive community case management and child survival in periurban Mali</article-title>
+        <article-title>Proactive community case management and child survival in periurban Mali Analysis</article-title>
       </title-group>
       <contrib-group content-type="author">
         <contrib contrib-type="person">
@@ -15,36 +15,42 @@
             <surname>Johnson</surname>
             <given-names>Ari D</given-names>
           </name>
+          <xref ref-type="aff" rid="aff0"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
             <surname>Thiero</surname>
             <given-names>Oumar</given-names>
           </name>
+          <xref ref-type="aff" rid="aff2"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
             <surname>Whidden</surname>
             <given-names>Caroline</given-names>
           </name>
+          <xref ref-type="aff" rid="aff1"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
             <surname>Poudiougou</surname>
             <given-names>Belco</given-names>
           </name>
+          <xref ref-type="aff" rid="aff1"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
             <surname>Diakit&#233;</surname>
             <given-names>Djoum&#233;</given-names>
           </name>
+          <xref ref-type="aff" rid="aff1"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
             <surname>Traor&#233;</surname>
             <given-names>Fouss&#233;ni</given-names>
           </name>
+          <xref ref-type="aff" rid="aff1"/>
         </contrib>
         <contrib contrib-type="person">
           <name>
@@ -69,8 +75,55 @@
             <surname>Kayentao</surname>
             <given-names>Kassoum</given-names>
           </name>
+          <xref ref-type="aff" rid="aff1"/>
         </contrib>
       </contrib-group>
+      <aff id="aff0">
+        <institution content-type="orgname">University of California</institution>
+        <institution content-type="orgdiv1">Department of Medicine</institution>
+        <country>USA</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff2">
+        <institution content-type="orgname">Tulane University</institution>
+        <institution content-type="orgdiv1">School of Public Health and Tropical Medicine</institution>
+        <country>USA</country>
+      </aff>
+      <aff id="aff3">
+        <institution content-type="orgname">University of Sciences, Techniques and Technologies of Bamako</institution>
+        <institution content-type="orgdiv1">Malaria Research and Training Centre</institution>
+        <city>Bamako</city>
+        <country>Mali</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff1">
+        <city>Muso, Bamako</city>
+        <country>Mali, USA</country>
+      </aff>
+      <aff id="aff3">
+        <institution content-type="orgname">University of Sciences, Techniques and Technologies of Bamako</institution>
+        <institution content-type="orgdiv1">Malaria Research and Training Centre</institution>
+        <city>Bamako</city>
+        <country>Mali</country>
+      </aff>
       <abstract/>
     </article-meta>
   </front>
