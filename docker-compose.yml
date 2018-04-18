@@ -25,8 +25,7 @@ services:
         image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
         command: ./server.sh \
             --host=0.0.0.0 --port=8075 \
-            --grobid-url http://grobid:8070/api \
-            --grobid-action /processHeaderDocument
+            --grobid-url http://grobid:8070/api
         ports:
             - "8075:8075"
         networks:
