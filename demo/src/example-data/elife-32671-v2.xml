@@ -83,5 +83,1828 @@
     </article-meta>
   </front>
   <body/>
-  <back/>
+  <back>
+    <ref-list id="ref-list-1">
+      <ref id="b0">
+        <element-citation publication-type="journal">
+          <article-title>Multiplexed temporally focused light shaping for high-resolution multi-cell targeting</article-title>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1101/216135</pub-id>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Accanto</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Tanese</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ronzitti</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Molinier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>Z L</given-names>
+            </name>
+            <name>
+              <surname>Wyart</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Isacoff</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Papagiakoumou</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b1">
+        <element-citation publication-type="journal">
+          <article-title>Cellular resolution circuit mapping with temporal-focused excitation of soma-targeted channelrhodopsin</article-title>
+          <year>2016</year>
+          <fpage>27525487</fpage>
+          <lpage>27525487</lpage>
+          <pub-id pub-id-type="doi">10.7554/eLife.14193</pub-id>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baker</surname>
+              <given-names>C A</given-names>
+            </name>
+            <name>
+              <surname>Elyada</surname>
+              <given-names>Y M</given-names>
+            </name>
+            <name>
+              <surname>Parra</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bolton</surname>
+              <given-names>M M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b2">
+        <element-citation publication-type="journal">
+          <article-title>Aberrationfree three-dimensional multiphoton imaging of neuronal activity at kHz rates</article-title>
+          <source>PNAS</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>22315405</fpage>
+          <lpage>22315405</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Botcherby</surname>
+              <given-names>E J</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>C W</given-names>
+            </name>
+            <name>
+              <surname>Kohl</surname>
+              <given-names>M M</given-names>
+            </name>
+            <name>
+              <surname>D&#233; Barre</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Booth</surname>
+              <given-names>M J</given-names>
+            </name>
+            <name>
+              <surname>Ju&#353;kaitis</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Paulsen</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b3">
+        <element-citation publication-type="journal">
+          <article-title>The psychophysics toolbox</article-title>
+          <source>Spatial Vision</source>
+          <year>1997</year>
+          <volume>10</volume>
+          <fpage>433</fpage>
+          <lpage>436</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brainard</surname>
+              <given-names>D H</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b4">
+        <element-citation publication-type="journal">
+          <article-title>Imprinting and recalling cortical ensembles</article-title>
+          <source>Science</source>
+          <year>2016</year>
+          <volume>353</volume>
+          <fpage>27516599</fpage>
+          <lpage>27516599</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carrillo-Reid</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bando</surname>
+              <given-names>Yang W</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>D S</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b5">
+        <element-citation publication-type="journal">
+          <article-title>Imaging and optically manipulating neuronal ensembles</article-title>
+          <source>Annual Review of Biophysics</source>
+          <year>2017</year>
+          <volume>46</volume>
+          <fpage>28301770</fpage>
+          <lpage>28301770</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carrillo-Reid</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>Yang W</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>Kang</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>J E</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>D S</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b6">
+        <element-citation publication-type="journal">
+          <article-title>Ultrasensitive fluorescent proteins for imaging neuronal activity</article-title>
+          <source>Nature</source>
+          <year>2013</year>
+          <volume>499300</volume>
+          <fpage>23868258</fpage>
+          <lpage>23868258</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>T W</given-names>
+            </name>
+            <name>
+              <surname>Wardill</surname>
+              <given-names>T J</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Pulver</surname>
+              <given-names>S R</given-names>
+            </name>
+            <name>
+              <surname>Renninger</surname>
+              <given-names>S L</given-names>
+            </name>
+            <name>
+              <surname>Baohan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schreiter</surname>
+              <given-names>E R</given-names>
+            </name>
+            <name>
+              <surname>Kerr</surname>
+              <given-names>R A</given-names>
+            </name>
+            <name>
+              <surname>Orger</surname>
+              <given-names>M B</given-names>
+            </name>
+            <name>
+              <surname>Jayaraman</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Looger</surname>
+              <given-names>L L</given-names>
+            </name>
+            <name>
+              <surname>Svoboda</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>D S</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b7">
+        <element-citation publication-type="journal">
+          <article-title>Attractor dynamics of network UP states in the neocortex</article-title>
+          <source>Nature</source>
+          <year>2003</year>
+          <volume>423</volume>
+          <fpage>12748641</fpage>
+          <lpage>12748641</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cossart</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Aronov</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b8">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous two-photon imaging and photo-stimulation with structured light illumination</article-title>
+          <source>Optics Express</source>
+          <year>2010</year>
+          <volume>18</volume>
+          <fpage>20940765</fpage>
+          <lpage>20940765</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dal Maschio</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Difato</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Beltramo</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Blau</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Benfenati</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Fellin</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b9">
+        <element-citation publication-type="journal">
+          <article-title>Linking neurons to network function and behavior by two-photon holographic optogenetics and volumetric imaging</article-title>
+          <source>Neuron</source>
+          <year>2017</year>
+          <volume>94</volume>
+          <fpage>28521132</fpage>
+          <lpage>28521132</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dal Maschio</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Donovan</surname>
+              <given-names>J C</given-names>
+            </name>
+            <name>
+              <surname>Helmbrecht</surname>
+              <given-names>T O</given-names>
+            </name>
+            <name>
+              <surname>Baier</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b10">
+        <element-citation publication-type="journal">
+          <article-title>Two-photon laser scanning fluorescence microscopy</article-title>
+          <source>Science</source>
+          <year>1990</year>
+          <volume>248</volume>
+          <fpage>73</fpage>
+          <lpage>76</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Denk</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Strickler</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>Webb W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b11">
+        <element-citation publication-type="journal">
+          <article-title>moco: fast motion correction for calcium imaging</article-title>
+          <source>Frontiers in Neuroinformatics</source>
+          <year>2016</year>
+          <volume>10</volume>
+          <fpage>26909035</fpage>
+          <lpage>26909035</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dubbs</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Guevara</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b12">
+        <element-citation publication-type="journal">
+          <article-title>Three-dimensional random access multiphoton microscopy for functional imaging of neuronal activity</article-title>
+          <source>Nature Neuroscience</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <fpage>18432198</fpage>
+          <lpage>18432198</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reddy</surname>
+              <given-names>Duemani</given-names>
+            </name>
+            <name>
+              <surname>Kelleher</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Fink</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Saggau</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b13">
+        <element-citation publication-type="journal">
+          <article-title>All-Optical Interrogation of Neural Circuits</article-title>
+          <source>Journal of Neuroscience</source>
+          <year>2015</year>
+          <volume>35</volume>
+          <fpage>26468193</fpage>
+          <lpage>26468193</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>A E</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>H&#228;</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b14">
+        <element-citation publication-type="journal">
+          <article-title>Dense inhibitory connectivity in neocortex</article-title>
+          <source>Neuron</source>
+          <year>2011</year>
+          <volume>69</volume>
+          <fpage>21435562</fpage>
+          <lpage>21435562</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fino</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b15">
+        <element-citation publication-type="journal">
+          <article-title>High-speed in vivo calcium imaging reveals neuronal network activity with near-millisecond precision</article-title>
+          <source>Nature Methods</source>
+          <year>2010</year>
+          <volume>7</volume>
+          <fpage>20400966</fpage>
+          <lpage>20400966</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grewe</surname>
+              <given-names>B F</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kasper</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kampa</surname>
+              <given-names>B M</given-names>
+            </name>
+            <name>
+              <surname>Helmchen</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b16">
+        <element-citation publication-type="journal">
+          <article-title>Fast two-layer two-photon imaging of neuronal cell populations using an electrically tunable lens</article-title>
+          <source>Biomedical Optics Express</source>
+          <year>2011</year>
+          <volume>2</volume>
+          <fpage>21750778</fpage>
+          <lpage>21750778</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grewe</surname>
+              <given-names>B F</given-names>
+            </name>
+            <name>
+              <surname>Voigt</surname>
+              <given-names>F F</given-names>
+            </name>
+            <name>
+              <surname>Van &amp;apos;t Hoff</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Helmchen</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b17">
+        <element-citation publication-type="journal">
+          <article-title>Closed-loop and activity-guided optogenetic control</article-title>
+          <source>Neuron</source>
+          <year>2015</year>
+          <volume>86</volume>
+          <fpage>25856490</fpage>
+          <lpage>25856490</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grosenick</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Marshel</surname>
+              <given-names>J H</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b18">
+        <element-citation publication-type="journal">
+          <article-title>Deep tissue two-photon microscopy</article-title>
+          <source>Nature Methods</source>
+          <year>2005</year>
+          <volume>2</volume>
+          <fpage>16299478</fpage>
+          <lpage>16299478</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helmchen</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Denk</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b19">
+        <element-citation publication-type="journal">
+          <article-title>Three-dimensional spatiotemporal focusing of holographic patterns</article-title>
+          <source>Nature Communications</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>27306044</fpage>
+          <lpage>27306044</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Papagiakoumou</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tanese</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Fidelin</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Wyart</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b20">
+        <element-citation publication-type="journal">
+          <article-title>Technologies for imaging neural activity in large volumes</article-title>
+          <source>Nature Neuroscience</source>
+          <year>2016</year>
+          <volume>19</volume>
+          <fpage>27571194</fpage>
+          <lpage>27571194</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S L</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b21">
+        <element-citation publication-type="journal">
+          <article-title>Adaptive optical fluorescence microscopy</article-title>
+          <source>Nature Methods</source>
+          <year>2017</year>
+          <volume>14</volume>
+          <fpage>28362438</fpage>
+          <lpage>28362438</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname/>
+              <given-names>Ji N</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b22">
+        <element-citation publication-type="journal">
+          <article-title>A blanket of inhibition: functional inferences from dense inhibitory connectivity</article-title>
+          <source>Current Opinion in Neurobiology</source>
+          <year>2014</year>
+          <volume>26</volume>
+          <fpage>24440415</fpage>
+          <lpage>24440415</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karnani</surname>
+              <given-names>M M</given-names>
+            </name>
+            <name>
+              <surname>Agetsuma</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b23">
+        <element-citation publication-type="journal">
+          <article-title>Opening holes in the blanket of inhibition: localized lateral disinhibition by VIP interneurons</article-title>
+          <source>Journal of Neuroscience</source>
+          <year>2016</year>
+          <volume>36</volume>
+          <fpage>27013676</fpage>
+          <lpage>27013676</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karnani</surname>
+              <given-names>M M</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ayzenshtat</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Sichani</surname>
+              <given-names>Hamzehei</given-names>
+            </name>
+            <name>
+              <surname>Manoocheri</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b24">
+        <element-citation publication-type="journal">
+          <article-title>Fast twophoton in vivo imaging with three-dimensional random-access scanning in large tissue volumes</article-title>
+          <source>Nature Methods</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>22231641</fpage>
+          <lpage>22231641</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katona</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Szalay</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ma&#225; K P, Kasz&#225; S</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Veress</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hillier</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Chiovini</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Vizi</surname>
+              <given-names>E S</given-names>
+            </name>
+            <name>
+              <surname>Roska</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>R&#243;</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b25">
+        <element-citation publication-type="journal">
+          <article-title>Continuous volumetric imaging via an optical phase-locked ultrasound lens</article-title>
+          <source>Nature Methods</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>26167641</fpage>
+          <lpage>26167641</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kong</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Little</surname>
+              <given-names>J P</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>L&#228; Mmermann</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C P</given-names>
+            </name>
+            <name>
+              <surname>Germain</surname>
+              <given-names>R N</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b26">
+        <element-citation publication-type="journal">
+          <article-title>Activation of specific interneurons improves V1 feature selectivity and visual perception</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>488</volume>
+          <fpage>22878719</fpage>
+          <lpage>22878719</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S H</given-names>
+            </name>
+            <name>
+              <surname>Kwan</surname>
+              <given-names>A C</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Phoumthipphavong</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Flannery</surname>
+              <given-names>J G</given-names>
+            </name>
+            <name>
+              <surname>Masmanidis</surname>
+              <given-names>S C</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z J</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Boyden</surname>
+              <given-names>E S</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Dan</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b27">
+        <element-citation publication-type="journal">
+          <article-title>3D All-optical control of functionally defined neurons with cellular resolution and sub-millisecond precision</article-title>
+          <year>2017</year>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mardinly</surname>
+              <given-names>A R</given-names>
+            </name>
+            <name>
+              <surname>Pegard</surname>
+              <given-names>N C</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Sridharan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hakim</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Waller</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Adesnik</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b28">
+        <element-citation publication-type="journal">
+          <article-title>Principles for applying optogenetic tools derived from direct comparative analysis of microbial opsins</article-title>
+          <source>Nature Methods</source>
+          <year>2011</year>
+          <volume>9</volume>
+          <fpage>22179551</fpage>
+          <lpage>22179551</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mattis</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Tye</surname>
+              <given-names>K M</given-names>
+            </name>
+            <name>
+              <surname>Ferenczi</surname>
+              <given-names>E A</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishnan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>O&amp;apos;</given-names>
+            </name>
+            <name>
+              <surname>Prakash</surname>
+              <given-names>D J</given-names>
+            </name>
+            <name>
+              <surname>Gunaydin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hyun</surname>
+              <given-names>L A</given-names>
+            </name>
+            <name>
+              <surname>Fenno</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gradinaru</surname>
+              <given-names>L E</given-names>
+            </name>
+            <name>
+              <surname>Yizhar</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b29">
+        <element-citation publication-type="journal">
+          <article-title>Layer-specific modulation of neocortical dendritic inhibition during active wakefulness</article-title>
+          <source>Science</source>
+          <year>2017</year>
+          <volume>355</volume>
+          <fpage>942</fpage>
+          <lpage>942</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mu&#241; Oz</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Tremblay</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Levenstein</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>Rudy B</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b30">
+        <element-citation publication-type="journal">
+          <article-title>Two-photon photostimulation and imaging of neural circuits</article-title>
+          <source>Nature Methods</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>17965719</fpage>
+          <lpage>17965719</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nikolenko</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Poskanzer</surname>
+              <given-names>K E</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b31">
+        <element-citation publication-type="journal">
+          <article-title>SLM microscopy: scanless twophoton imaging and photostimulation with spatial light modulators</article-title>
+          <source>Frontiers in Neural Circuits</source>
+          <year>2008</year>
+          <volume>2</volume>
+          <fpage>19129923</fpage>
+          <lpage>19129923</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nikolenko</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>B O</given-names>
+            </name>
+            <name>
+              <surname>Araya</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Woodruff</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>D S</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b32">
+        <element-citation publication-type="journal">
+          <article-title>Scanningless depth-resolved microscopy</article-title>
+          <source>Optics Express</source>
+          <year>2005</year>
+          <volume>13</volume>
+          <fpage>19495022</fpage>
+          <lpage>19495022</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oron</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tal</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Silberberg</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b33">
+        <element-citation publication-type="journal">
+          <article-title>Two-photon optogenetics of dendritic spines and neural circuits</article-title>
+          <source>Nature Methods</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>23142873</fpage>
+          <lpage>23142873</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Packer</surname>
+              <given-names>A M</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>D S</given-names>
+            </name>
+            <name>
+              <surname>Hirtz</surname>
+              <given-names>J J</given-names>
+            </name>
+            <name>
+              <surname>Prakash</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b34">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous all-optical manipulation and recording of neural circuit activity with cellular resolution in vivo</article-title>
+          <source>Nature Methods</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>25532138</fpage>
+          <lpage>25532138</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Packer</surname>
+              <given-names>A M</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>L E</given-names>
+            </name>
+            <name>
+              <surname>Dalgleish</surname>
+              <given-names>H W</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>H&#228;</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b35">
+        <element-citation publication-type="journal">
+          <article-title>Patterned two-photon illumination by spatiotemporal shaping of ultrashort pulses</article-title>
+          <source>Optics Express</source>
+          <year>2008</year>
+          <volume>16</volume>
+          <fpage>19104638</fpage>
+          <lpage>19104638</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Papagiakoumou</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>De Sars</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Oron</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b36">
+        <element-citation publication-type="journal">
+          <article-title>Three-dimensional scanless holographic optogenetics with temporal focusing (3D-SHOT)</article-title>
+          <source>Nature Communications</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>29089483</fpage>
+          <lpage>29089483</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#233; Gard</surname>
+              <given-names>N C</given-names>
+            </name>
+            <name>
+              <surname>Mardinly</surname>
+              <given-names>A R</given-names>
+            </name>
+            <name>
+              <surname>Oldenburg</surname>
+              <given-names>I A</given-names>
+            </name>
+            <name>
+              <surname>Sridharan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Waller</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Adesnik</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b37">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous Denoising, Deconvolution, and Demixing of Calcium Imaging Data</article-title>
+          <source>Neuron</source>
+          <year>2016</year>
+          <volume>89</volume>
+          <fpage>26774160</fpage>
+          <lpage>26774160</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pnevmatikakis</surname>
+              <given-names>E A</given-names>
+            </name>
+            <name>
+              <surname>Soudry</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Machado</surname>
+              <given-names>T A</given-names>
+            </name>
+            <name>
+              <surname>Merel</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pfau</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Reardon</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Lacefield</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Ahrens</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bruno</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Jessell</surname>
+              <given-names>T M</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>D S</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Paninski</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b38">
+        <element-citation publication-type="journal">
+          <article-title>Brain heating induced by near infrared lasers during multi-photon microscopy</article-title>
+          <source>Journal of Neurophysiology:jn</source>
+          <year>2016</year>
+          <volume>00275</volume>
+          <fpage>2016</fpage>
+          <lpage>2016</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Podgorski</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ranganathan</surname>
+              <given-names>G N</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b39">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous cellular-resolution optical perturbation and imaging of place cell firing fields</article-title>
+          <source>Nature Neuroscience</source>
+          <year>2014</year>
+          <volume>17</volume>
+          <fpage>25402</fpage>
+          <lpage>854</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rickgauer</surname>
+              <given-names>J P</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Tank</surname>
+              <given-names>D W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b40">
+        <element-citation publication-type="journal">
+          <article-title>Temporally precise single-cell-resolution optogenetics</article-title>
+          <source>Nature Neuroscience</source>
+          <year>2017</year>
+          <volume>20</volume>
+          <fpage>29184208</fpage>
+          <lpage>29184208</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shemesh</surname>
+              <given-names>O A</given-names>
+            </name>
+            <name>
+              <surname>Tanese</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Zampini</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Linghu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Piatkevich</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ronzitti</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Papagiakoumou</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Boyden</surname>
+              <given-names>E S</given-names>
+            </name>
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b41">
+        <element-citation publication-type="journal">
+          <article-title>A large field of view two-photon mesoscope with subcellular resolution for in vivo imaging</article-title>
+          <year>2016</year>
+          <volume>5</volume>
+          <fpage>27300105</fpage>
+          <lpage>27300105</lpage>
+          <pub-id pub-id-type="doi">10.7554/eLife.14472</pub-id>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sofroniew</surname>
+              <given-names>N J</given-names>
+            </name>
+            <name>
+              <surname>Flickinger</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Svoboda</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b42">
+        <element-citation publication-type="journal">
+          <article-title>Principles of two-photon excitation microscopy and its applications to neuroscience</article-title>
+          <source>Neuron</source>
+          <year>2006</year>
+          <volume>50</volume>
+          <fpage>16772166</fpage>
+          <lpage>16772166</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Svoboda</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b43">
+        <element-citation publication-type="journal">
+          <article-title>A pyramid approach to subpixel registration based on intensity</article-title>
+          <source>IEEE Transactions on Image Processing</source>
+          <year>1998</year>
+          <volume>7</volume>
+          <fpage>18267377</fpage>
+          <lpage>18267377</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Th&#233; Venaz</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Ruttimann</surname>
+              <given-names>U E</given-names>
+            </name>
+            <name>
+              <surname>Unser</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b44">
+        <element-citation publication-type="journal">
+          <article-title>Modification of orientation selectivity of cat visual cortex neurons by removal of GABA mediated inhibition</article-title>
+          <source>Experimental Brain Research</source>
+          <year>1979</year>
+          <volume>46</volume>
+          <fpage>351</fpage>
+          <lpage>363</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsumoto</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Eckart</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Creutzfeldt</surname>
+              <given-names>O D</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b45">
+        <element-citation publication-type="journal">
+          <article-title>Division and subtraction by distinct cortical inhibitory networks in vivo</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>488</volume>
+          <fpage>22878717</fpage>
+          <lpage>22878717</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>N R</given-names>
+            </name>
+            <name>
+              <surname>Runyan</surname>
+              <given-names>C A</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F L</given-names>
+            </name>
+            <name>
+              <surname>Sur</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b46">
+        <element-citation publication-type="journal">
+          <article-title>Extended field-of-view and increased-signal 3D holographic illumination with time-division multiplexing</article-title>
+          <source>Optics Express</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>26699047</fpage>
+          <lpage>26699047</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S J</given-names>
+            </name>
+            <name>
+              <surname>Allen</surname>
+              <given-names>W E</given-names>
+            </name>
+            <name>
+              <surname>Kauvar</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Andalman</surname>
+              <given-names>A S</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>N P</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C K</given-names>
+            </name>
+            <name>
+              <surname>Marshel</surname>
+              <given-names>J H</given-names>
+            </name>
+            <name>
+              <surname>Wetzstein</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b47">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous multiplane imaging of neural circuits</article-title>
+          <source>Neuron</source>
+          <year>2016</year>
+          <volume>89</volume>
+          <fpage>26774159</fpage>
+          <lpage>26774159</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>J E</given-names>
+            </name>
+            <name>
+              <surname>Carrillo-Reid</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Pnevmatikakis</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Paninski</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Peterka</surname>
+              <given-names>D S</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b48">
+        <element-citation publication-type="journal">
+          <article-title>In vivo imaging of neural activity</article-title>
+          <source>Nature Methods</source>
+          <year>2017</year>
+          <volume>14</volume>
+          <fpage>28362436</fpage>
+          <lpage>28362436</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b49">
+        <element-citation publication-type="journal">
+          <article-title>Holographic-Photostimulation-System</article-title>
+          <year>2018</year>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b50">
+        <element-citation publication-type="journal">
+          <article-title>Neocortical excitation/ inhibition balance in information processing and social dysfunction</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>477</volume>
+          <fpage>21796121</fpage>
+          <lpage>21796121</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yizhar</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Fenno</surname>
+              <given-names>L E</given-names>
+            </name>
+            <name>
+              <surname>Prigge</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>T J</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>O&amp;apos;</given-names>
+            </name>
+            <name>
+              <surname>Sohal</surname>
+              <given-names>D J</given-names>
+            </name>
+            <name>
+              <surname>Goshen</surname>
+              <given-names>V S</given-names>
+            </name>
+            <name>
+              <surname>Finkelstein</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Paz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Stehfest</surname>
+              <given-names>J T</given-names>
+            </name>
+            <name>
+              <surname>Fudim</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishnan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Huguenard</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hegemann</surname>
+              <given-names>J R</given-names>
+            </name>
+            <name>
+              <surname>Deisseroth</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname/>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b51">
+        <element-citation publication-type="journal">
+          <article-title>Dendritic spines as basic functional units of neuronal integration</article-title>
+          <source>Nature</source>
+          <year>1995</year>
+          <volume>375</volume>
+          <fpage>7791901</fpage>
+          <lpage>7791901</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Denk</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b52">
+        <element-citation publication-type="journal">
+          <article-title>Control of postsynaptic Ca2+ influx in developing neocortex by excitatory and inhibitory neurotransmitters</article-title>
+          <source>Neuron</source>
+          <year>1991</year>
+          <volume>6</volume>
+          <fpage>333</fpage>
+          <lpage>344</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuste</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Katz</surname>
+              <given-names>L C</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b53">
+        <element-citation publication-type="journal">
+          <article-title>Simultaneous spatial and temporal focusing of femtosecond pulses</article-title>
+          <source>Optics Express</source>
+          <year>2005</year>
+          <volume>13</volume>
+          <fpage>19495103</fpage>
+          <lpage>19495103</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Van Howe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Durst</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zipfel</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+      <ref id="b54">
+        <element-citation publication-type="journal">
+          <article-title>Nonlinear magic: multiphoton microscopy in the biosciences</article-title>
+          <source>Nature Biotechnology</source>
+          <year>2003</year>
+          <volume>21</volume>
+          <fpage>14595365</fpage>
+          <lpage>14595365</lpage>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zipfel</surname>
+              <given-names>W R</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>R M</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>W W</given-names>
+            </name>
+          </person-group>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
 </article>
