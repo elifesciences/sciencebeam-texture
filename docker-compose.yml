@@ -14,7 +14,7 @@ services:
             context: .
             dockerfile: Dockerfile
             args:
-                dependencies_sciencebeam: "${SCIENCEBEAM_COMMIT}"
+                dependencies_sciencebeam: "${SCIENCEBEAM_TAG}"
         image: elifesciences/sciencebeam_texture:${IMAGE_TAG}
         command: npm run start:prod
         ports:
