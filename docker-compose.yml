@@ -22,7 +22,7 @@ services:
         depends_on:
             - sciencebeam
     sciencebeam:
-        image: elifesciences/sciencebeam:${SCIENCEBEAM_COMMIT}
+        image: elifesciences/sciencebeam:${SCIENCEBEAM_TAG}
         command: ./server.sh \
             --host=0.0.0.0 --port=8075 \
             --grobid-url http://grobid:8070/api
