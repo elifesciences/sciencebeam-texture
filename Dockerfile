@@ -8,7 +8,7 @@ ENV PROJECT_DIR=${HOME}/sciencebeam-texture
 RUN mkdir ${PROJECT_DIR}
 WORKDIR ${PROJECT_DIR}
 
-COPY --chown=node:node demo/package.json ${PROJECT_DIR}/
+COPY --chown=node:node demo/package.json demo/package-lock.json ${PROJECT_DIR}/
 RUN npm install
 
 COPY --chown=node:node demo ${PROJECT_DIR}/
