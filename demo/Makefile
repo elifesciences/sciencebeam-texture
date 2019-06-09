@@ -28,7 +28,7 @@ clean:
 
 
 install:
-	$(RUN_DEV) npm install
+	$(RUN_DEV) npm ci
 
 
 build:
