@@ -1,4 +1,4 @@
-FROM node:9.8.0-stretch AS texture
+FROM node:8.16.0-stretch AS texture
 
 USER node
 ENV HOME=/home/node
