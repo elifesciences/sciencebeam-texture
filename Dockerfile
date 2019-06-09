@@ -9,7 +9,7 @@ RUN mkdir ${PROJECT_DIR}
 WORKDIR ${PROJECT_DIR}
 
 COPY --chown=node:node demo/package.json demo/package-lock.json ${PROJECT_DIR}/
-RUN npm install
+RUN npm ci
 
 COPY --chown=node:node demo ${PROJECT_DIR}/
 RUN npm run build
