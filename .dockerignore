@@ -1,1 +1,4 @@
 .git
+.temp
+demo/dist
+demo/node_modules
