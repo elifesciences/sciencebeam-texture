@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+    texture-dev:
+        volumes:
+            - .:/opt/sciencebeam-texture

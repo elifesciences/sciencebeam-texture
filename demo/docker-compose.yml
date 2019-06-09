@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    texture-dev:
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+            args:
+                UNAME: ${UNAME}
+                UID: ${UID}
+                GID: ${GID}
+        image: elifesciences/sciencebeam_texture_dev:${IMAGE_TAG}
+        ports:
+            - "4000:4000"
