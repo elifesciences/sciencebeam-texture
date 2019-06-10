@@ -31,7 +31,7 @@ install:
 	$(RUN_DEV) npm ci
 
 
-build:
+bundle:
 	$(RUN_DEV) npm run build
 
 
