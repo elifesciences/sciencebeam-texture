@@ -6,7 +6,7 @@ services:
             context: .
             dockerfile: Dockerfile.dev
             args:
-                UNAME: ${UNAME}
+                USERNAME: ${USERNAME}
                 UID: ${UID}
                 GID: ${GID}
         image: elifesciences/sciencebeam_texture_dev:${IMAGE_TAG}

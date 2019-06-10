@@ -1,4 +1,4 @@
-UNAME = $(shell whoami)
+USERNAME = $(shell whoami)
 UID = $(shell id -u)
 GID = $(shell id -g)
 
@@ -10,13 +10,13 @@ RUN_DEV = $(DOCKER_COMPOSE) run --rm texture-dev
 
 
 show-user:
-	@echo "UNAME=$(UNAME)"
+	@echo "USERNAME=$(USERNAME)"
 	@echo "UID=$(UID)"
 	@echo "GID=$(GID)"
 
 
 build-dev:
-	UNAME="$(UNAME)" UID=$(UID) GID=$(GID) $(DOCKER_COMPOSE) build texture-dev
+	USERNAME="$(USERNAME)" UID=$(UID) GID=$(GID) $(DOCKER_COMPOSE) build texture-dev
 
 
 shell-dev:
