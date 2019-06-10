@@ -19,11 +19,11 @@ build-dev:
 	UNAME="$(UNAME)" UID=$(UID) GID=$(GID) $(DOCKER_COMPOSE) build texture-dev
 
 
-shell:
+shell-dev:
 	$(RUN_DEV) bash
 
 
-clean:
+clean-dev:
 	$(RUN_DEV) rm -rf node_modules
 
 
@@ -35,5 +35,5 @@ bundle:
 	$(RUN_DEV) npm run build
 
 
-start:
+start-dev:
 	$(RUN_DEV) npm run start
