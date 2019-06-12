@@ -9,6 +9,9 @@ DOCKER_COMPOSE = $(DOCKER_COMPOSE_DEV)
 RUN_DEV = $(DOCKER_COMPOSE) run --rm texture-dev
 
 
+ARGS =
+
+
 show-user:
 	@echo "USERNAME=$(USERNAME)"
 	@echo "UID=$(UID)"
@@ -27,8 +30,27 @@ clean-dev:
 	$(RUN_DEV) rm -rf node_modules
 
 
-install:
+.require-ARGS:
+	@if [ -z "$(ARGS)" ]; then \
+		echo "ARGS required"; \
+		exit 1; \
+	fi
+
+
+npm: .require-ARGS
+	$(RUN_DEV) npm $(ARGS)
+
+
+npm-audit:
+	$(RUN_DEV) npm audit
+
+
+npm-ci:
 	$(RUN_DEV) npm ci
+
+
+install-dependency: .require-ARGS
+	$(RUN_DEV) npm install $(ARGS)
 
 
 bundle:
