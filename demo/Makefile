@@ -42,11 +42,11 @@ npm: .require-ARGS
 
 
 npm-audit:
-	$(RUN_DEV) npm audit
+	$(RUN_DEV) npm audit $(ARGS)
 
 
 npm-ci:
-	$(RUN_DEV) npm ci
+	$(RUN_DEV) npm ci $(ARGS)
 
 
 install-dependency: .require-ARGS
@@ -54,8 +54,8 @@ install-dependency: .require-ARGS
 
 
 bundle:
-	$(RUN_DEV) npm run build
+	$(RUN_DEV) npm run build $(ARGS)
 
 
 start-dev:
-	$(RUN_DEV) npm run start
+	$(RUN_DEV) npm run start $(ARGS)
