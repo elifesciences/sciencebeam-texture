@@ -48,6 +48,7 @@
     "webpack-cli": "^3.3.4"
   },
   "dependencies": {
+    "katex": "^0.10.2",
     "substance-texture": "git+https://git@github.com/substance/texture.git#v1.0"
   }
 }
