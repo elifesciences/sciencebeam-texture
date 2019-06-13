@@ -95,7 +95,7 @@ gulp.task('fonts', gulp.series(['fonts:clean'], () => {
 }));
 
 gulp.task('exampleData:clean', () => {
-  return del([`${path.out.fonts}/*`]);
+  return del([`${path.out.exampleData}/*`]);
 });
 
 gulp.task('exampleData', gulp.series(['exampleData:clean'], () => {

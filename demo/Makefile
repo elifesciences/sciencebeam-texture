@@ -57,6 +57,10 @@ bundle:
 	$(RUN_DEV) npm run build $(ARGS)
 
 
+gulp: .require-ARGS
+	$(RUN_DEV) ./node_modules/.bin/gulp $(ARGS)
+
+
 start-dev:
 	$(DOCKER_COMPOSE) up -d texture-dev
 	@echo "open http://localhost:$${TEXTURE_PORT_DEV:-4000}"
