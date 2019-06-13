@@ -10,5 +10,6 @@ services:
                 UID: ${UID}
                 GID: ${GID}
         image: elifesciences/sciencebeam_texture_dev:${IMAGE_TAG}
+        command: npm run start
         ports:
-            - "4000:4000"
+            - "${TEXTURE_PORT_DEV}:8080"

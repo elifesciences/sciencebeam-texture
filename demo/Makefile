@@ -36,4 +36,13 @@ bundle:
 
 
 start-dev:
-	$(RUN_DEV) npm run start
+	$(DOCKER_COMPOSE) up -d texture-dev
+	@echo "open http://localhost:$${TEXTURE_PORT_DEV:-4000}"
+
+
+stop-dev:
+	$(DOCKER_COMPOSE) stop texture-dev
+
+
+logs:
+	$(DOCKER_COMPOSE) logs -f
