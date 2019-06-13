@@ -48,6 +48,6 @@
     "webpack-cli": "^3.3.4"
   },
   "dependencies": {
-    "substance-texture": "^1.0.0-preview.1.1"
+    "substance-texture": "git+https://git@github.com/substance/texture.git#v1.0"
   }
 }
