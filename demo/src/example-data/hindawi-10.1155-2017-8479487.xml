@@ -25,7 +25,373 @@
 			</abstract>
     </article-meta>
   </front>
-  <body/>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>Photovoltaic (PV) cell or module saturation current (I 0 ) and ideality factor (n) are usually determined by fitting the Shockley equation to dark current-voltage (I-V) measurements. This is done by nonlinear parameter estimation software employing iterative methods. These methods require a minimum number of dark I-V points (100 in our case) measured very accurately in the microamp range. Photovoltaic research laboratories are more likely to have a solar simulator only and lack a high-cost semiconductor characterization system. Therefore, the capability of varying the irradiance in a simulator allows the extraction of ideality factor and recombination current. In this study, the relation between open-circuit voltage (V oc ) and short-circuit current (I sc ) of PV cells and modules has been investigated. By measuring V oc and I sc at different irradiance levels, a good linear correlation was found between these two parameters as expected from theoretical predictions. The interpretation of this linear relation is based on the assumption that the PV cells have no significant shunt paths across their junction. In fact, it is shown that if the relation between V oc and I sc is not linear for a cell, the cell is expected to have significant shunt paths or low shunt resistances. Comparing results obtained from V oc -I sc measurements to dark I-V measurements indicate that the V oc -I sc method is a reliable and accurate way to quickly and easily determine the otherwise obscure parameters, I 0 and n. PV simulations were also used to verify the method, and I 0 and n obtained from the V oc -I sc method are in excellent agreement with the values of I 0 and n used in the simulations. Due to the simplicity of the method, it is a useful tool for grading cells and modules during manufacturing and also for analyzing any infield degradation. This paper presents, verifies, and applies the V oc -I sc method used to determine a cell or module's saturation current and ideality factor.</p>
+    </sec>
+    <sec>
+      <title>Solar Cells: Operating Principles</title>
+      <p>Solar cells are diodes formed by joining n-type and p-type semiconductor materials. When forming this p-n junction, electrons diffuse across the junction to the p-side where they recombine with holes. Similarly, holes diffuse across the junction to the n-side where they recombine with electrons giving rise to the diffusion component of the recombination current. On leaving the n-side, electrons leave behind positively ionized donor atoms and the holes leave behind negatively ionized acceptor atoms. These ionized atoms form a space charge region (SCR) giving rise to an electrical field directed from the n-type region towards the p-type region <xref ref-type="bibr" rid="b0">[1,</xref><xref ref-type="bibr" rid="b1">2]</xref>. The buildup of this electric field will, therefore, eventually oppose further diffusion of electrons and holes. At this condition, the Fermi levels in both regions are equal and the junction is said to be at thermal equilibrium. Figure 1 illustrates the energy band diagram of a p-n junction at thermal equilibrium. Also illustrated is the built-in potential barrier, V bi , associated with the internal electric field.</p>
+      <p>2.1. Dark Current. When the p-n junction diode in Figure 1 is forward biased, the built-in potential barrier is lowered. <xref ref-type="fig" rid="fig_1">Figure 2</xref>(a) shows the components of the recombination current when the junction is forward biased and <xref ref-type="fig" rid="fig_1">Figure 2(b)</xref>, the corresponding energy band diagram. The forward bias voltage, V, produces an injection of minority carriers into both sides, that is, electrons (filled circles) from the n-side into the p-side. The electrons in the p-side of the junction move by diffusion until they recombine with holes (empty circles). This recombination may take place either at the surface or in the bulk of the p-type material. This movement by diffusion of electrons in the p-side forms one component of the dark diode current (I D1 ) in the solar cell. Similarly, the current resulting from diffusion of holes in the n-side is denoted by I D2 .</p>
+      <p>The total diffusion current in the n-and p-regions (I D1 + I D2 ), which also constitutes ideal recombination, is given by the Shockley equation <xref ref-type="bibr" rid="b1">[2,</xref><xref ref-type="bibr" rid="b2">3]</xref>:</p>
+      <p>where I 01 = reverse saturation current corresponding to the diffusion and recombination of electron and holes in the pand n-regions, respectively; n = ideality factor = 1; k = Boltzmann's constant; T = absolute temperature. The last component of the dark current is a result of recombination of electrons and holes in the SCR, I D3 . This current constitutes nonideal recombination and is given by</p>
+      <p>where I 02 = reverse saturation current corresponding to the generation and recombination of electron and holes in the SCR region; n = ideality factor &gt; 1; The total dark current comprises the components given in (1) and (2):</p>
+      <p>Equation (3) can be written as a single exponential formula:</p>
+      <p>where I 0 = reverse saturation current governed by diffusion and recombination of electron and holes; n = 1 if the dark current, I D , is solely determined by diffusion; and n &gt; 1 if recombination in the SCR also contributes to I D . Apart from the recombination current given in (4), parasitic series and shunt resistances are also present in a practical solar cell. <xref ref-type="fig" rid="fig_2">Figure 3</xref> shows the equivalent circuit model of a p-n junction solar cell in the dark where the cell is forward biased by a variable power supply, V DC . The shunt resistance, R sh , represents any parallel highconductivity paths across the junction or on the cell edges, and the series resistance, R s , represents the resistance in the bulk of the material and in the Ohmic contacts <xref ref-type="bibr" rid="b3">[4]</xref><xref ref-type="bibr" rid="b4">[5]</xref><xref ref-type="bibr" rid="b5">[6]</xref>. </p>
+      <p>n-region p-region SCR qV bi Figure 1: Energy band diagram of a p-n junction at thermal equilibrium.</p>
+    </sec>
+    <sec>
+      <title>2</title>
+      <p>International Journal of Photoenergy</p>
+      <p>From the figure, it is evident that the current through the cell is given by</p>
+      <p>where I D is given by (4) and I sh is obtained from Kirchhoff's voltage rule. Substitution yields the equation governing the dark I-V characteristics of a cell or module:</p>
+      <p>2.2. Photogenerated Current. When the p-n junction solar cell is illuminated, the junction is forward biased and the cell produces a photogenerated current, I ph . <xref ref-type="fig" rid="fig_5">Figure 4(a)</xref> shows the equivalent circuit model of the illuminated solar cell and <xref ref-type="fig" rid="fig_5">Figure 4</xref>(b) the corresponding energy band diagram when the illuminated cell is connected to a load. The external current through the load, I, is given by <xref ref-type="bibr" rid="b6">[7]</xref> </p>
+      <p>The equation governing the I-V characteristics of a PV cell or module is then given by</p>
+      <p>The short-circuit current, I sc , of the solar cell is obtained by setting V in (8) equal to zero and assuming that R s is negligibly small; thus,</p>
+      <p>Similarly, the cell's open-circuit voltage, V oc , is obtained when no external current flows, that is, I = 0 in (8). Assuming that I 0 &#8810; I sc and R sh &#8811; V oc /I sc , V oc is then given by</p>
+    </sec>
+    <sec>
+      <title>Validation of the V oc -I sc Method</title>
+      <p>From (10), it is evident that a plot of V oc versus lnI sc should be linear. The gradient of this linear plot allows the determination of ideality factor, n, and the y-intercept yields the reverse saturation current, I 0 :</p>
+      <p>To verify the validity of (11), a series of experiments were conducted on a monocrystalline Si cell and a 36-cell multicrystalline Si module. A PV simulation program (PVSIM) <xref ref-type="bibr" rid="b7">[8]</xref> was also used to verify (11).</p>
+      <p>Equations (10) and (11) assume that the ideality factor is not influenced by irradiance levels and subsequently by voltage. This is however not the case. The ideality factor has a distinct dependence on voltage. This dependence is governed by unusual or nonideal recombination and parasitic series and shunt resistance. <xref ref-type="fig" rid="fig_3">Figure 5</xref>(a) shows the theoretical dependence of ideality factor on voltage for an ideal solar cell and for a solar cell with parasitic resistances according to (8) [9]. In this calculation, R s = 0.100 &#937;.cm 2 , R sh = 1.00 M.cm 2 , I 01 = 1.00 &#215; 10 &#8722;13 A/cm 2 and I 02 = 1.00 &#215; 10 &#8722;10 A/cm 2 . These are typical values for a Si p-n junction solar cell <xref ref-type="bibr" rid="b9">[10]</xref>.</p>
+      <p>At low voltages (corresponding to very low irradiance levels), the ideality factor is governed by shunt paths across the p-n junction. At intermediate voltages, the ideality factor</p>
+      <p>n-region n-region SCR  International Journal of Photoenergy is very "stable", and at high voltages (irradiance levels), it is governed by series resistances [9]. in results in a voltage range corresponding to the "stable" ideality factor region in <xref ref-type="fig" rid="fig_3">Figure 5</xref>(a), that is between 0.5 V and 0.6 V. If the assumptions resulting in 10 (I 0 &#8810; I sc and R sh &#8811; V oc /I sc ) do not hold, then of course the ideality factor would not be "stable" in this voltage range. Therefore, this  International Journal of Photoenergy V oc -I sc method allows a qualitative measure of whether parasitic resistances are present or not as will be shown in Figure 6 below. It should be noted that the light I-V measurements could only be done between irradiance levels of 169 W/m 2 and 1000 W/m 2 since the 4 clear mesh covers reduced the irradiance levels to specific values that could not be further altered. In this irradiance range, the voltage range corresponds to the region where the ideality factor is stable, provided that there are no parasitic resistances or nonideal recombination is taking place.</p>
+      <p>The advantage of the V oc -I sc method is that it will show that the assumptions in (10) are not met when the V oc -I sc curve is sublinear. Therefore, when the curve is sublinear, it is expected or suspected that the cell/module have shunting behavior, low series resistance, and/or nonideal recombination taking place.</p>
+      <p>3.1. Monocrystalline Si Cell. The diode ideality factor and saturation current can be accurately extracted by fitting (6) to a set of measured dark current-voltage (I-V) data using nonlinear parameter estimation software <xref ref-type="bibr" rid="b10">[11,</xref><xref ref-type="bibr" rid="b11">12]</xref>. In this study, we have used FitAll <xref ref-type="bibr" rid="b12">[13]</xref> to obtain estimates of n and I 0 from dark I-V measurements. Figure 7 shows the measured dark I-V data (symbols) and the nonlinear fit (solid line) of the monocrystalline Si cell. The standard deviation of the fit is 2 6 &#215; 10 &#8722;3 indicating that the parameters obtained are very good estimates of the true values.  <xref ref-type="fig" rid="fig_7">Figure 8</xref> shows the plot of V oc versus lnI sc measured at different irradiance levels. The correlation of the linear fit with the measured data is 99.84% indicating that the relation between V oc and I sc is in good accordance with the theoretical (10). Table 2 lists the values obtained for I 0 and n from the linear fit and compares it to that obtained from the dark I-V measurements. Clearly, results obtained from the two methods (V oc -I sc method and dark I-V) are in good agreement. The relative error of the V oc -I sc method from the dark I-V results is 0.39 for recombination current I 0 and 0.05 for ideality factor n.</p>
+      <p>3.2. 36-Cell Multicrystalline Si Module. The method of extracting I 0 and n from V oc -I sc measurements was also used on a 36-cell multicrystalline Si module. The shunt resistance of the module was measured using an individual cell shunt measurement system <xref ref-type="bibr" rid="b11">[12]</xref>. No cells in the module had significantly low shunt resistances, and the total module shunt   </p>
+    </sec>
+    <sec>
+      <title>International Journal of Photoenergy</title>
+      <p>resistance was more than 10 M&#937;. This value was confirmed by dark I-V measurements. <xref ref-type="fig" rid="fig_8">Figure 9</xref> shows the measured I-V characteristic (symbols) of the module and its performance parameters at standard test conditions (STC: 1000 W/m 2 irradiance, 25 &#176; C cell temperature and AM1.5 global spectrum). PVSIM <xref ref-type="bibr" rid="b7">[8]</xref> was then used to simulate (solid line), the module's characteristic at STC. Figure 6 illustrates the relation between V oc and I sc of the measured and simulated data. The symbols are the measured data, the solid line the simulation, and the dashed line simulations of the same module but with low cell shunt resistances. The effect of the low cell shunt resistances is particularly evident at low irradiance levels. At these low levels, the assumption that R sh &#8811; V oc /I sc becomes invalid and the relation between V oc and lnI sc is sublinear. Therefore, if the relation between V oc and lnI sc is sublinear for a module or cell, one can conclude that the module or cell exhibits shunting behavior.</p>
+      <p>Values for I 0 and n obtained from both measured and simulated data are listed in <xref ref-type="table" rid="tab_2">Table 3</xref>. The good correlation between values obtained from measured and simulated data indicates that our method of extracting I 0 and n from V oc -I sc measurements is valid and accurate for both cells and modules. The relative error of the V oc -I sc method from the PVSIM results is 0.21 for recombination current I 0 and 0.02 for ideality factor n.</p>
+      <p>3.3. Simulation of a 36-Cell Si Module. In the previous section, a PV simulation program (PVSIM) has been used to simulate the multicrystalline module. In this section, an arbitrary 36-cell module is simulated. The simulations are conducted for different irradiance levels from which V oc -I sc data points are obtained. Our method of extracting I 0 and n was then applied to these data points. The result is then compared to the values for I 0 and n used by PVSIM. Figure 10 shows the relation between the simulated V oc and I sc . Listed in the accompanying table are the values of R s , R sh , I 0 , and n used in the simulations. It is evident from this table that the values for I 0 and n obtained from the V oc -I sc method are in excellent agreement with I 0 and n used by PVSIM.</p>
+    </sec>
+    <sec>
+      <title>Application of the V oc -I sc Method</title>
+      <p>4.1. Degradation Analysis. Although the primary application of the V oc -I sc method is to obtain the obscure parameters of I 0 and n from I-V measurements in a solar simulator, the method can also be employed to establish and or confirm performance degradation when the tests are done periodically on modules deployed outdoors. In a study where a 14 Wp a-Si:H module was deployed outdoors <xref ref-type="bibr" rid="b13">[14]</xref>, the module's performance degraded by about 60% after being exposed to 130 kWh/m 2 . Our method was used to analyze this observed degradation. The module had an average individual cell shunt resistance of 100 &#937; implying that the assumption R sh &#8811; V oc /I sc holds. <xref ref-type="table" rid="tab_3">Table 4</xref> lists the values for I 0 and n Table 2: I 0 and n obtained from V oc -I sc measurements compared to that estimated from dark I-V measurements of the mono-Si cell.</p>
+      <p>Parameter   Figure 10: Relation between V oc and I sc of a 36-cell module simulated with PVSIM. The accompanying table lists the values of R s , R sh , I 0 , and n used in the simulations and compares I 0 and n with that obtained from the V oc -I sc method. International Journal of Photoenergy obtained from V oc -I sc measurements before, during, and after a 180 kWh/m 2 outdoor exposure. The increase in ideality factor implies that after each exposure, the recombination current in the SCR contributed more towards the dark current. This is also evident from the increase in the saturation current with exposure. When the a-Si:H cells are exposed to sunlight, the incoming photons generate electron-hole (e-h) pairs. When these e-h pairs recombine, a photon or phonon may be released. The emitted photons break the weak Si-Si bonds in the SCR. These broken bonds form metastable defects in the SCR, which enhances recombination there. The photons emitted from the enhanced recombination cause even more metastable defects to form and, thus, enhance recombination even more <xref ref-type="bibr" rid="b14">[15]</xref><xref ref-type="bibr" rid="b15">[16]</xref><xref ref-type="bibr" rid="b16">[17]</xref><xref ref-type="bibr" rid="b17">[18]</xref>. This increasing recombination, illustrated by I 0 in <xref ref-type="table" rid="tab_4">Table 5</xref>, deteriorates the performance and quality of the cells' junction since fewer carriers are now available for current transport in an external circuit.</p>
+      <p>4.2. Quality Assessment. The V oc -I sc method presented in this paper can be used to assess the quality of various modules. Because of its simplicity, module manufacturers, PV system designers, and researchers can use this method to quickly and easily assess module or cell quality. In this study, five modules comprising different module technologies were subjected to the V oc -I sc method. The modules are presented in <xref ref-type="table" rid="tab_4">Table 5</xref> where the module technology, rated power, STCmeasured power, and aperture area efficiencies are listed. Figure 11 shows the normalized I-V characteristics of the five modules measured at STC. The current values were normalized to I sc and the voltage to V oc . These normalized I-V characteristics enable direct comparison of the different module technologies. It is clear from the figure that the fill factor (FF = P max /V oc I sc ) of the thin-film modules and hence their qualities are inferior to that of the crystalline modules.</p>
+      <p>The V oc -I sc method was used to assess module quality in terms of I 0 and n. <xref ref-type="fig" rid="fig_1">Figure 12</xref> shows V oc as a function of I sc for the five module technologies. Different values for V oc and I sc were obtained by measuring I-V characteristics at various irradiance levels inside the solar simulator. Module temperatures were maintained at 25 &#176; C. <xref ref-type="table" rid="tab_5">Table 6</xref> lists the parameters (n and I 0 ) obtained from the logarithmic fits to the data in Figure 11. These values were confirmed with dark I-V measurements. The closer n is to unity, the better the quality of the module cells. Also, n &gt; 1 implies that apart from ideal recombination in the quasineutral p-and n-regions, nonideal recombination also takes place in the space charge region (SCR) of the p-n junction <xref ref-type="bibr" rid="b1">[2]</xref>. From the table, it is evident that the EFG-Si module has the best quality cells. This is contrary to the normalized I-V characteristics in Figure 10, which suggests that the multicrystalline module has the highest FF and, hence, the best quality. The lower FF of the EFG-Si module in Figure 10 is, however, attributed to a crack on one of its cells. Therefore, the V oc -I sc method still gives accurate results even when light I-V measurements may be misleading.</p>
+      <p>The relatively higher n for the thin-film modules reveals that their cell quality is lower than the crystalline cells. It also implies that nonideal recombination takes place especially   7 International Journal of Photoenergy for the a-Si:H module with n close to 2. The high I 0 of the CuInSe 2 (CIS) module is due to the fact that the CIS module showed shunting behavior <xref ref-type="bibr" rid="b13">[14,</xref><xref ref-type="bibr" rid="b18">[19]</xref><xref ref-type="bibr" rid="b19">[20]</xref><xref ref-type="bibr" rid="b20">[21]</xref><xref ref-type="bibr" rid="b21">[22]</xref> implying that the ratio V oc /I sc approaches R sh . In general, the lower quality of the thin-film modules is mainly due to less stringent manufacturing processes used in an attempt to reduce manufacturing costs.</p>
+    </sec>
+    <sec>
+      <title>Summary and Conclusions</title>
+      <p>In this paper, it has been successfully shown that the saturation current, I 0 , and the ideality factor, n, of cells and modules can be extracted from measuring V oc and I sc at different irradiance levels. In comparison to dark I-V measurements and simulations, the underlying physics and implementation of our method are much simpler and in good correlation with results obtained from both dark I-V measurements and simulations. The assumption R sh &gt;&gt;V oc /I sc is generally true for cells and modules. If the relation between V oc and lnI sc is sublinear for a cell or module, it can be concluded that the cell or module exhibits shunting behavior.</p>
+      <p>Due to its simplicity, our method can be used in any PV laboratory with a simulator as well as outdoors. These outdoor measurements would involve the physical measurements of V oc and I sc with an appropriate multimeter and place clear mesh layers over the modules to vary the incident irradiance on the modules. If the module temperature also varies, corrections need to be made for that. It can also be used on measurements taken outdoors with common laboratory equipment <xref ref-type="bibr" rid="b22">[23]</xref>. To the cell and module designer, it is a quick and useful diagnostic tool to grade the quality of cells and modules. This V oc -I sc method has also been used in this study to analyze the degradation in an a-Si:H module deployed outdoors. The saturation current of the module increased by more than three orders of magnitude and the ideality factor increased by 65% from 1.71 initially to 2.83 after the 130 kWh/m 2 exposure. These results confirmed the Staebler-Wronski effect where the formation of recombination centers in the SCR is enhanced by exposure to light photons. Assessment of the quality of various module technologies revealed that the thin-film module technologies are inferior in quality compared to crystalline Si modules. The V oc -I sc method also proved to be reliable even when there are defective cells in a module, which causes results obtained from light I-V measurements to be misleading.</p>
+    </sec>
+    <sec>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare that there is no conflict of interest regarding the publication of this paper.</p>
+    </sec>
+    <sec id="figures">
+      <title>Figures</title>
+      <fig id="fig_1">
+        <object-id>fig_1</object-id>
+        <label>Figure 2 :</label>
+        <caption>
+          <title>Figure 2 :</title>
+          <p>Figure 2: (a) Components of the recombination current in a forward biased p-n junction solar cell [2]. (b) Energy band diagram of a forward biased p-n junction corresponding to Figure 2(a).</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_2">
+        <object-id>fig_2</object-id>
+        <label>3</label>
+        <caption>
+          <title>3</title>
+          <p/>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_3">
+        <object-id>fig_3</object-id>
+        <label>Figure 5 (</label>
+        <caption>
+          <title>Figure 5 (</title>
+          <p>b) shows the dependence of voltage for our cell on irradiance level as obtained from PVSIM. From this fig- ure, it is clear that the irradiance range that we are working</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_4">
+        <object-id>fig_4</object-id>
+        <label>Figure 4 :Figure 5 :</label>
+        <caption>
+          <title>Figure 4 :Figure 5 :</title>
+          <p>Figure 4: (a) Equivalent circuit model for an illuminated p-n junction solar cell connected to a load. (b) Energy band diagram of an illuminated solar cell corresponding to Figure 4(a).</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_5">
+        <object-id>fig_5</object-id>
+        <label>4</label>
+        <caption>
+          <title>4</title>
+          <p/>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_6">
+        <object-id>fig_6</object-id>
+        <label>Figure 6 :Figure 7 :</label>
+        <caption>
+          <title>Figure 6 :Figure 7 :</title>
+          <p>Figure 6: V oc -I sc data for the 36-cell module. The symbols indicate measured data and the solid line indicates simulations. Also shown is the effect of low cell shunt resistances on the relation between V oc and I sc (dashed line).</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_7">
+        <object-id>fig_7</object-id>
+        <label>Figure 8 :</label>
+        <caption>
+          <title>Figure 8 :</title>
+          <p>Figure 8: V oc and I sc measured (symbols) at different irradiance levels. The solid line is a linear fit.</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_8">
+        <object-id>fig_8</object-id>
+        <label>Figure 9 :</label>
+        <caption>
+          <title>Figure 9 :</title>
+          <p>Figure 9: I-V characteristic of the 36-cell module measured (symbols) at STC and simulated (solid line) using PVSIM [8]. The performance parameters shown are those obtained from measurement.</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_9">
+        <object-id>fig_9</object-id>
+        <label>Figure 11 :Figure 12 :</label>
+        <caption>
+          <title>Figure 11 :Figure 12 :</title>
+          <p>Figure 11: Normalized I-V characteristics of the five module technologies used.</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <table-wrap id="tab_0">
+        <label>Table 1 lists the two parameters obtained from</label>
+        <caption>
+          <title>Table 1 lists the two parameters obtained from</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>FitAll 
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_1">
+        <label>Table 1 :</label>
+        <caption>
+          <title>Table 1 :</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>I 0 and n obtained from a nonlinear fit to measure dark I-V 
+data of a single mono-Si cell. 
+
+Parameter 
+Estimated value 
+Absolute deviation (%) 
+
+I 0 (A) 
+5 39 &#215; 10 &#8722;5 
+3 05 &#215; 10 &#8722;3 
+
+n 
+2.83 
+0.03 
+
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_2">
+        <label>Table 3 :</label>
+        <caption>
+          <title>Table 3 :</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>I 0 and n for the 36-cell module obtained from V oc -I sc 
+measurements compared to that simulated using PVSIM. 
+
+Parameter 
+V oc -I sc 
+PVSIM 
+
+I 0 (A) 
+2 44 &#215; 10 &#8722;8 
+3 08 &#215; 10 &#8722;8 
+
+n 
+1.24 
+1.26 
+
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_3">
+        <label>Table 4 :</label>
+        <caption>
+          <title>Table 4 :</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Saturation current and ideality factor for a 14 Wp a-Si:H 
+module obtained from V oc -I sc measurements. 
+
+Parameter 
+Exposure 
+0 kWh/m 2 
+80 kWh/m 2 
+130 kWh/m 2 
+
+I 0 (A) 
+5 47 &#215; 10 &#8722;9 
+3 51 &#215; 10 &#8722;6 
+2 59 &#215; 10 &#8722;5 
+
+n 
+1.71 
+2.47 
+2.96 
+
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_4">
+        <label>Table 5 : Module technologies, rated power, STC-measured power, and aperture area efficiencies of the five modules used in the quality assessment.</label>
+        <caption>
+          <title>Table 5 : Module technologies, rated power, STC-measured power, and aperture area efficiencies of the five modules used in the quality assessment.</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Module technology 
+P max 
+rated (W) 
+
+P max @ 
+STC (W) 
+
+&#951; 
+(%) 
+
+CIS 
+10.0 
+10.76 
+9.19 
+a-Si:H 
+14.0 
+12.98 
+4.41 
+EFG-Si 
+32.0 
+31.64 
+11.3 
+Multi-Si 
+30.0 
+30.62 
+11.0 
+Mono-Si 
+65.0 
+64.45 
+10.7 
+
+0.0 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+1.2 
+
+0.0 
+0.2 
+0.4 
+0.6 
+0.8 
+1.0 
+1.2 
+V/V oc 
+
+I/I 
+
+sc 
+
+CIS 
+a-Si:H 
+EFG-Si 
+
+Multi-Si 
+Mono-Si 
+
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_5">
+        <label>Table 6 :</label>
+        <caption>
+          <title>Table 6 :</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Parameters (n and I 0 ) obtained for various module 
+technologies from V oc -I sc measurements. 
+
+Module 
+CIS 
+a-Si:H 
+EFG-Si 
+Multi-Si 
+Mono-Si 
+
+n 
+1.38 
+1.71 
+1.07 
+1.15 
+1.19 
+I 0 (nA) 
+486 
+5.47 
+1.28 
+5.82 
+40.7 
+
+</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </body>
   <back>
     <ref-list id="ref-list-1">
       <ref id="b0">
@@ -121,7 +487,7 @@
       </ref>
       <ref id="b5">
         <element-citation publication-type="journal">
-          <article-title>Bulk heterojunction solar cells based on blends of conjugated polymers with IIVI and IV-VI inorganic semiconductor quantum dots</article-title>
+          <article-title>Bulk heterojunction solar cells based on blends of conjugated polymers with II-VI and IV-VI inorganic semiconductor quantum dots</article-title>
           <source>Polymers</source>
           <year>2017</year>
           <volume>9</volume>
