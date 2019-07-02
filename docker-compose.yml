@@ -25,14 +25,22 @@ services:
         image: elifesciences/sciencebeam:${SCIENCEBEAM_TAG}
         command: ./server.sh \
             --host=0.0.0.0 --port=8075 \
-            --grobid-url http://grobid:8070/api
+            --pipeline grobid,sciencebeam_autocut \
+            --grobid-url http://grobid:8070/api \
+            --sciencebeam-autocut-url http://sciencebeam-autocut:8080/api/autocut \
+            --sciencebeam-autocut-xpath front/article-meta/title-group/article-title
         ports:
             - "8075:8075"
         networks:
             - default
             - grobid
         depends_on:
+            - sciencebeam-autocut
             - grobid
+    sciencebeam-autocut:
+        image: ${SCIENCEBEAM_AUTOCUT_REPO}:${SCIENCEBEAM_AUTOCUT_TAG}
+        ports:
+            - "8079:8080"
     grobid:
         image: lfoppiano/grobid:${GROBID_TAG}
         environment:
