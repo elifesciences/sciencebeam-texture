@@ -81,6 +81,7 @@
       <aff id="aff0">
         <institution content-type="orgname">University of California</institution>
         <institution content-type="orgdiv1">Department of Medicine</institution>
+        <city>San Francisco</city>
         <country>USA</country>
       </aff>
       <aff id="aff1">
@@ -90,11 +91,12 @@
       <aff id="aff2">
         <institution content-type="orgname">Tulane University</institution>
         <institution content-type="orgdiv1">School of Public Health and Tropical Medicine</institution>
+        <city>New Orleans</city>
         <country>USA</country>
       </aff>
       <aff id="aff3">
-        <institution content-type="orgname">University of Sciences, Techniques and Technologies of Bamako</institution>
-        <institution content-type="orgdiv1">Malaria Research and Training Centre</institution>
+        <institution content-type="orgname">Malaria Research and Training Centre</institution>
+        <institution content-type="orgdiv1">Faculty of Medicine and Odontostomatology</institution>
         <city>Bamako</city>
         <country>Mali</country>
       </aff>
@@ -119,15 +121,424 @@
         <country>Mali, USA</country>
       </aff>
       <aff id="aff3">
-        <institution content-type="orgname">University of Sciences, Techniques and Technologies of Bamako</institution>
-        <institution content-type="orgdiv1">Malaria Research and Training Centre</institution>
+        <institution content-type="orgname">Malaria Research and Training Centre</institution>
+        <institution content-type="orgdiv1">Faculty of Medicine and Odontostomatology</institution>
         <city>Bamako</city>
         <country>Mali</country>
       </aff>
       <abstract/>
     </article-meta>
   </front>
-  <body/>
+  <body>
+    <sec>
+      <title>IntroduCtIon</title>
+      <p>The majority of the world's population now lives in urban areas. 1 While Africa remains predominantly rural, the continent is urbanising faster than other regions and is projected to become 56% urban by 2050. 1 With more than half of sub-Saharan Africa's urban population living in slums and informal settlements, <xref ref-type="bibr" rid="b0">2</xref> this demographic shift has major implications for health and health equity. Characterised by extreme poverty, environmental degradation and a lack of basic infrastructure, these urban areas are vulnerable to infectious diseases such as malaria, diarrhoea and pneumonia, to new pandemic outbreaks and to an emerging non-communicable disease burden.</p>
+      <p>Malaria, diarrhoea, pneumonia and neonatal illness, diseases with evidence-based and cost-effective prevention and treatment methods, 3-5 constitute the leading causes of childhood death in sub-Saharan Africa. <xref ref-type="bibr" rid="b4">6</xref> Timely access to care is a key element in the management of these diseases, which progress rapidly. Delayed access to effective care has been correlated with increased under-five</p>
+    </sec>
+    <sec>
+      <title>Summary box</title>
+      <p>What is already known about this topic?</p>
+      <p>&#9658; Countries with a high burden of under-five mortality are urbanising rapidly. &#9658; Community health workers (CHWs) are being deployed across countries in sub-Saharan Africa to reduce under-five mortality through integrated community case management (iCCM), predominantly in rural contexts. &#9658; National efforts to deploy CHWs have confronted significant challenges, and the expected benefits of iCCM have not been found in all contexts.</p>
+    </sec>
+    <sec>
+      <title>What are the new findings?</title>
+      <p>&#9658; Seven years following the launch of proactive community case management (ProCCM), the areas of the intervention had an under-five mortality rate of 7/1000. &#9658; Communities served by ProCCM have sustained a rate of under-five mortality lower than any country in sub-Saharan Africa.</p>
+      <p>recommendations for policy BMJ Global Health mortality from malaria, 7 8 diarrhoeal disease, 9 acute respiratory infection 10 11 and neonatal asphyxia. <xref ref-type="bibr" rid="b10">[12]</xref><xref ref-type="bibr" rid="b11">[13]</xref><xref ref-type="bibr" rid="b12">[14]</xref> Weak and poorly designed health systems create barriers to timely access to care. 14 15 Fees at point of care are associated with decreased and delayed utilisation of care, and removing user fees correlates with increases in healthcare utilisation, particularly among the poor. <xref ref-type="bibr" rid="b14">[16]</xref><xref ref-type="bibr" rid="b15">[17]</xref><xref ref-type="bibr" rid="b16">[18]</xref><xref ref-type="bibr" rid="b17">[19]</xref><xref ref-type="bibr" rid="b18">[20]</xref> Inadequate human resources for health, gender inequality, inadequate infrastructure and poverty also impede access to care. 14 21-26 Geographical distance, though a more prominent barrier in rural contexts, can still impede access to care for the urban poor. <xref ref-type="bibr" rid="b19">21</xref> As a result, facility-based services alone, in both rural and urban contexts, frequently do not provide adequate, timely and equitable access to care. <xref ref-type="bibr" rid="b25">27</xref> Community case management (CCM) removes barriers to access by training and supporting community health workers (CHWs) to diagnose, treat and refer sick children in the communities in which they live. Since 2004, WHO and Unicef have issued joint statements promoting CCM of malaria, acute diarrhoea, pneumonia, acute malnutrition and newborn survival. These statements are based on a body of evidence showing CCM to be effective in increasing care seeking, reducing treatment failure rates and reducing mortality due to malaria, diarrhoea, pneumonia and all-cause mortality. <xref ref-type="bibr" rid="b26">[28]</xref><xref ref-type="bibr" rid="b27">[29]</xref><xref ref-type="bibr" rid="b28">[30]</xref><xref ref-type="bibr" rid="b29">[31]</xref><xref ref-type="bibr" rid="b30">[32]</xref><xref ref-type="bibr" rid="b31">[33]</xref><xref ref-type="bibr" rid="b32">[34]</xref><xref ref-type="bibr" rid="b33">[35]</xref><xref ref-type="bibr" rid="b34">[36]</xref> In 2012, these community-based services were compiled into a package of care known as integrated community case management (iCCM) of childhood illnesses. <xref ref-type="bibr" rid="b25">27</xref> Twenty-eight countries in sub-Saharan Africa have adopted iCCM as a strategy to improve child health and survival. 37 iCCM programmes differ in many ways, including CHW workflow, recruitment, training, health systems integration, supervision and compensation. <xref ref-type="bibr" rid="b35">[37]</xref><xref ref-type="bibr" rid="b36">[38]</xref><xref ref-type="bibr" rid="b37">[39]</xref> However, one particular pattern emerges among iCCM policies and plans in sub-Saharan Africa. In Mali, Liberia, Ghana, Burkina Faso, Ethiopia, Malawi and other countries, iCCM has been used as a strategy to improve child health primarily in remote rural settings. As the sub-Saharan African region urbanises rapidly, further research is needed urgently on the feasibility and effects of iCCM on improving access to care, morbidity and mortality in urban areas.</p>
+      <p>National efforts to scale iCCM have confronted significant challenges, and the expected benefits of iCCM have not been found in all contexts. <xref ref-type="bibr" rid="b38">[40]</xref><xref ref-type="bibr" rid="b39">[41]</xref><xref ref-type="bibr" rid="b40">[42]</xref> Three recent independent evaluations of national iCCM programmes in Burkina Faso, Ethiopia and Malawi found no significant impact on care seeking or child mortality. <xref ref-type="bibr" rid="b41">[43]</xref><xref ref-type="bibr" rid="b42">[44]</xref><xref ref-type="bibr" rid="b43">[45]</xref><xref ref-type="bibr" rid="b44">[46]</xref> These results emphasise the importance of testing models for improving iCCM service delivery and the potential impact of improved models in both urban and rural contexts.</p>
+      <p>Geographical proximity to a health centre does not ensure access to services, as many health system barriers, including direct and indirect costs of care, availability of services, shortage and insufficient training of staff and gender inequality, persist in urban contexts. <xref ref-type="bibr" rid="b45">47</xref> 48 CHWs do more than extend the health system into geographically remote areas; they may be important for overcoming barriers to care that cut across rural-urban divides.</p>
+      <p>However, research and programmatic effort for iCCM and CHW services have been considerably more limited in urban settings than in rural communities. CHWs have been shown to improve rates of exclusive breastfeeding, infant weight and care seeking through prenatal and postnatal home visits in a periurban settlement in South Africa. 49 50 The BRAC Manoshi programme significantly reduced home births, maternal mortality and neonatal mortality through CHW home visits in urban slums in Bangladesh. <xref ref-type="bibr" rid="b49">51</xref> Pilot projects in five African cities suggest that CCM of malaria is relevant in urban settings, where community-based agents were often the first point of care for febrile children, and most children were treated within 24 hours of symptom onset. 52 53 As Mali expands iCCM to remote rural villages, the government and its partners have expressed interest in testing alternative models of iCCM delivery and its potential impact in urban areas. Proactive community case management (ProCCM), a model for integrating iCCM into health systems at scale, is being implemented and tested in periurban and rural Mali. ProCCM takes into account the multiplicity of barriers patients face when trying to obtain care, focusing on early access. ProCCM CHWs conduct daily door-to-door proactive case detection, searching for and identifying patients who need care. For all patients identified, CHWs provide free-ofcharge doorstep evaluation, diagnostics, treatment, referral, counselling and follow-up.</p>
+      <p>In 2013, an interrupted time series study documented changes in early access to care and under-five mortality in the periurban area of Yirimadio, Mali after the roll-out of a health system strengthening intervention that included ProCCM of malaria. Three years after the introduction of the intervention, early access to care increased nearly twofold (PR=1.89, P=0.0195), and the total number of patient-provider contacts increased 10-fold. Under-five mortality was 155 per 1000 live births at baseline and 17 per 1000 live births at year three (HR 0.10, P&lt;0.0001). <xref ref-type="bibr" rid="b52">54</xref> In Mali and across sub-Saharan Africa, iCCM is being designed for and implemented primarily in remote rural settings with mixed results. Testing alternative models of delivery of iCCM services and their potential impact in both rural and urban contexts is, therefore, important. Here, we present a 7-year follow-on interrupted time series analysis assessing whether the changes in access to care and child mortality seen in ProCCM communities have been sustained over time.</p>
+    </sec>
+    <sec>
+      <title>settIng</title>
+      <p>Mali has the world's sixth highest national under-five child mortality rate, estimated at 114 deaths/1000 live births in 2015. <xref ref-type="bibr" rid="b53">55</xref> The public sector health system has used a user fee-for-service healthcare financing model since the Bamako Initiative of 1987. <xref ref-type="bibr" rid="b54">56</xref> Covering an area of approximately 3.5 square miles on the edge of Bamako, BMJ Global Health the periurban area of Yirimadio has experienced rapid population growth. Based on household census enumerations by Muso, the population in the study area was 56 371 in 2011 and 77 132 in 2013. Several factors contributed to the rapid population growth of the area. These include in-migration from rural areas, out-migration from the city's centre and Mali's high fertility ratefactors consistent with trends of urban growth across the region. <xref ref-type="bibr" rid="b55">57</xref> Certain patients also reported that they had moved to the area to seek care in the context of a system that provided access to healthcare without fees. During the 2012 security crisis in Mali, residents from Mali's north were displaced and sought refuge in the country's south, including the areas of the study.</p>
+      <p>At baseline, the public sector provided primary care through a community health centre that consisted of a consultation room, medicine dispensary, observation room and two rooms for labour and delivery. Local volunteers, known as relais, were trained by the Ministry of Health to share key maternal and child health messages with other community members. At baseline, there were no CHWs providing community-based management of childhood illness.</p>
+    </sec>
+    <sec>
+      <title>desCrIptIon of tHe proCCM InterventIon</title>
+      <p>The non-governmental organisation Muso 58 and the Malian Ministry of Health and Public Hygiene jointly launched ProCCM in Yirimadio in September 2008, designed to overcome health system barriers to timely access to preventive and curative care.</p>
+      <p>ProCCM involved five key components: (1) proactive case detection: CHWs conducted proactive case detection, searching for patients door-to-door for at least 2 hours per day, 6 days per week; (2) doorstep care: CHWs provided counselling, diagnosis, treatment and referral according to standard iCCM protocols 27 ; (3) dedicated supervision: CHWs received monthly individual supervision sessions and weekly group supervision sessions from a dedicated CHW supervisor; (4) user fee removal: no user fees were charged for community-based care. User fees were also removed at the Ministry of Health primary care centre for all patients who could not afford to pay, as determined by the patient self-reporting to his or her CHW and (5) primary care centre improvements: primary care capacity building for the Ministry of Health primary care centre, through infrastructure expansion and staff training.</p>
+      <p>Proactive CHWs providing doorstep care, removal of user fees and health centre construction were all fully deployed by September 2008. In the context of rapid population growth, the number of CHWs increased to target a CHW: population ratio of 1:1000, from 20 CHWs in 2008 to 75 in 2013 and then to 150 in 2015, of which 95% were women. Group supervision visits occurred weekly, held by a supervising programme manager from 2008 to 2013 and then by a dedicated cadre of CHW supervisors from 2013 to 2015. Individual monthly field supervision visits from a dedicated cadre of CHW supervisors began in July 2013. To keep up with population growth, additional health centre construction further expanded the public sector primary health centre in 2009, 2010 and 2013.</p>
+      <p>CHWs received 36 days of foundational training. The first CHWs deployed in 2008 received approximately half of this training preservice and the rest in modular fashion as in-service training. For CHWs subsequently recruited, most of this training was shifted to be preservice, with weekly group supervision meetings serving to review and reinforce key skills and competencies. CHWs were instructed and supervised to conduct at least 2 hours of proactive case detection home visits per day, 6 days per week, with a goal of visiting each household at least twice per month. CHWs maintained the autonomy to determine the details of their own workflow, including what times of day they conducted their visits and what order or pattern they visited homes. This high level of CHW autonomy was by design, positioning the CHWs as leaders in assessing the needs of their communities, adapting to local context, triaging urgent cases and adjusting their workflows to meet their goals.</p>
+      <p>Outside their proactive case detection activities, CHWs were instructed to be available on call at all times to patients who sought their services. In addition to proactive case detection for patients of all ages, CHWs provided a package of services consistent with iCCM clinical protocols, including: (1) counselling; (2) diagnosis of malaria (all ages), pneumonia, diarrhoeal disease and malnutrition for children under five; (3) treatment of uncomplicated cases of malaria, pneumonia, diarrhoeal disease and moderate acute malnutrition for children under five; (4) referral and accompaniment of patients with danger signs or conditions outside the CHW's scope of practice to the primary health centre-this included identification and evacuation of patients with danger signs in the neonatal period, such as lethargy and poor feeding; (5) follow-up visits to support adherence and monitor response to therapy at 24 hours, 48 hours and 72 hours for all sick patients after the initial evaluation, with an additional visit after 5 days for patients with diarrhoeal disease and (6) active case detection and evacuation of sick newborns, pregnant women and postpartum women to the primary care facility for treatment.</p>
+      <p>CHWs were recruited from the area of the intervention. Selection criteria included an ability to read and write in the local language (Bamanankan), communication skills, a commitment to community health, work ethic and an age between 18 and 45 years old. Female candidates were encouraged to apply. For neighbourhoods without a qualified candidate, the nearest qualified candidate was selected. CHWs were compensated for their work with a monthly payment of FCFA40 000 (approximately US$75). Each CHW supervisor was paid a starting salary of FCFA100 000 (approximately US$188) per month and was responsible for 15-20 CHWs.</p>
+    </sec>
+    <sec>
+      <title>BMJ Global Health</title>
+      <p>ConCurrent InterventIons In tHe study AreA During the period of the study, other interventions were introduced in the study area that sought to address disparities in the socioeconomic determinants of health, through microenterprise support, education and community organising. A non-formal education programme, developed by the organisation Tostan, 59 trained 1032 adults and adolescents in the years 2009-2012 with a curriculum that included human rights, problem solving, project management, democracy, health, hygiene, literacy, numeracy and income generation skills. Also, during the period of 2009-2012, 238 community organisers were trained to identify and implement community-designed health and development projects, including planting trees and mobilising community members around vaccination campaigns. From 2008 to 2015, a Muso microenterprise programme with 477 participants provided training, savings structures, grants and/or loans to women to start or expand revenue-generating activities.</p>
+      <p>In addition, during the period of the study, the Malian Ministry of Health and Public Hygiene adopted a national strategy targeting universal coverage with long-lasting insecticide-treated nets (LLINs) for malaria prevention. Distribution campaigns of LLINs were undertaken by Muso, Population Services International (PSI) and the Malian Ministry of Health and Public Hygiene in the study area in 2011 and 2015.</p>
+    </sec>
+    <sec>
+      <title>pArtICIpAnts And sAMplIng MetHodology</title>
+      <p>We conducted an adequacy evaluation based on a full coverage intervention to measure changes in early access and under-five mortality outcomes in the surveyed area. <xref ref-type="bibr" rid="b58">60</xref> Starting in 2008, we conducted independent, cross-sectional household surveys in the intervention area at baseline and at 12, 24, 36, 48, 60, 72 and 84 months subsequently. The surveys were conducted in the months of June and July each year. We included households with an adult woman. We randomly sampled 400 households in 2008, 2009 and 2010, 1170 households in 2011 and 1200 households in 2012, 2013, 2014 and 2015. We initially powered the sample to estimate the percentage of children aged 0-59 months with a fever in the 2 weeks prior to the survey who received an effective antimalarial within 24 hours of symptom onset, in a population of 56 000, with a 95% confidence level, a 5% margin of error and a conservative 50% response distribution.</p>
+      <p>A two-stage cluster sampling methodology, with probability of selection proportional to population size, was used to achieve a representative sample of the population in the intervention area. In the first stage of sampling, we generated 40 (2008)(2009)(2010) or 65 (2011)(2012)(2013)(2014)(2015) random non-overlapping latitude-longitude coordinates with 100 m radial buffers within the area of the intervention. As a measure of population density, we counted the number of structures within each cluster, using less than 6-month-old satellite imagery. In the second stage of sampling, interviewers selected households by arriving at the centre of the cluster and spinning a pen to identify a random direction to determine the initial direction to follow. They then visited every second household along that trajectory and chose a predetermined number of households proportional to the population density in that cluster. Within each household, a Kish grid 61 for random participant selection was used to randomly select one respondent, a female aged 16 years or over. In accordance with Malian law, married women younger than age 16 were also considered adults and included in the survey. The survey, which included questions about household demographic characteristics, fever in children under five and birth histories, was adapted primarily from Mali's national Demographic and Health Survey, using existing validated tools created by ICF International and PSI. <xref ref-type="bibr" rid="b60">62</xref> Interviewers were hired for the sole purpose of survey administration and were not members of the communities they surveyed.</p>
+      <p>Demographic characteristics of respondents were similar across study years (online supplementary table 1A, B).</p>
+    </sec>
+    <sec>
+      <title>pAtIent vIsIts And progrAMMe outputs</title>
+      <p>Patient data were collected through patient encounter forms completed by the government primary health centre staff and CHWs. A data entry professional based at the government primary healthcare centre maintained an electronic database that tracked the number of patient encounters in which user fees were removed. The number of sick patient visits per month was tracked by primary health centre staff and made available by the Ministry of Health District Health Information Systems office. At each patient encounter, CHWs recorded when the encounter began and when symptom onset began, from which we calculated the symptom-to-care time and the percentage of CHW patients aged 0-59 months who received care within 24 hours of symptom onset. This clinical data collected for programmatic outputs complemented data collected separately on symptom-to-treatment time in the household survey.</p>
+      <p>In the years after the roll-out of ProCCM, documented patient visits in the home or the clinic increased 10-fold. During the period of the intervention, CHWs conducted 618 877 proactive case finding home visits, and 29 561 home visits for sick children 0-59 months old. In the 2015 survey, 77% of participants reported that they had received a home visit from a CHW within the past 3 years. Of those who reported receiving CHW home visits in that survey, 59% had been visited within the past month, and 77% had been visited within the past 3 months. The Yirimadio public community health centre conducted 231 873 sick patient visits and follow-ups for patients of all ages, of which 106 050 (46%) had all user fees removed (figure 1).</p>
+      <p>CHWs were trained and supervised to assess each patient first for danger signs, indicating need for emergently</p>
+    </sec>
+    <sec>
+      <title>BMJ Global Health</title>
+      <p>evacuating the patient to the primary care centre, and referral signs, indicating the need to refer the patient to the primary care centre because of a condition beyond the CHW's scope of practice. Of patients evaluated by CHWs aged 0-59 months, 28% had a danger or referral sign requiring treatment at the primary care facility, and 17% had a positive malaria rapid antigen diagnostic test. Test positivity ranged from a low of 6% in the dry season months (February to June) to a peak of 42% in the rainy season months (October and November). Neither the design of the survey tool nor the data quality from the primary care facility permits a breakdown of morbidity or mortality by cause among patients treated. The percentage of CHW patients aged 0-59 months reached within 24 hours of symptom onset was 25% in year 1 and 62% in year 7 (online supplementary <xref ref-type="fig" rid="fig_0">figure 1</xref>).</p>
+      <p>The intervention costed approximately US$8 per person served per year (ranging from approximately US$6 to US$13 per person per year). As the intervention provided care to patients of all ages, aimed at full population coverage, cost per person was calculated by dividing total intervention costs by the estimated total population of the catchment area. This cost, when added to Mali's existing government spending on healthcare, would still be well within the range of what governments in the region are spending on healthcare, and consistent with Abuja Declaration targets. <xref ref-type="bibr" rid="b61">63</xref> A detailed study of intervention costing and cost-effectiveness is currently in process.</p>
+    </sec>
+    <sec>
+      <title>febrIle Illness And eArly treAtMent InItIAtIon</title>
+      <p>We calculated the proportion of children in the household under five (both biological and non-biological children of respondents) who were reported to be febrile in the 2 weeks prior to the survey and the proportion of febrile children under five who received an effective antimalarial treatment within 24 hours of symptom onset. We estimated prevalence using SAS (v9.4) accounting for clustering and strata with surveyfreq command. The Surveylogistic command was used to predict and compare the prevalence and/or ORs for the covariates in each logistic regression model, adjusted for clustering and sampling weight. The 'study year' (2008 to 2015) was treated as a categorical variable with 2008 as the reference year. Two other covariates, 'having nets in household' and 'having attended any school,' were included in the models when appropriate and/or significant to adjust the logistic models. The model fit the data well, and the convergence criteria were satisfied.</p>
+      <p>The prevalence of febrile illness among children under 5 years in the 2 weeks prior to the survey decreased significantly from 39.7% in 2008 to 22.6% in 2015 (OR 0.448, P&lt;0.0001, table 1), a relative reduction of 55.2%. The lowest prevalence was observed in 2014 (15.7%), a relative reduction of 71.5% from 2008 (OR 0.285, P=0.0002, table 1).</p>
+      <p>Among febrile children under 5 years, the percentage who received effective antimalarial treatment within   <xref ref-type="bibr" rid="b63">65</xref> The respondent's education status was significantly associated with effective early treatment of febrile illness among children under 5 years. Effective antimalarial treatment within 24 hours of symptom onset increased by 49% if the female respondent had attended any school compared with no school (OR 1.49, P&lt;0.01). However, education status was not significant in the model when the interaction terms were included, and thus, the model with year only was used to estimate all ORs <xref ref-type="table" rid="tab_1">(table 2)</xref>.</p>
+      <p>An important limitation to note is that the primary indicator of early effective antimalarial treatment measured treatment rates among all children with fever in 2 weeks prior to the survey rather than among all children with test-confirmed malaria. This was due to a lack of highquality data on malaria diagnostic use for the full duration of the study.</p>
+      <p>A 55% relative decrease occurred in the percentage of children 0-59 months with all-cause febrile illness. The documented increases in early treatment across the population likely shortened infection duration and may have reduced transmission of malaria, pneumonia and diarrhoeal disease. Treating cases of malaria within 24 hours of symptom onset, for example, could have eradicated Plasmodium falciparum malaria infections before the transmissible gametocyte form emerged. 66 67 In Senegal, weekly proactive case detection was associated with a significant reduction in the odds of symptomatic malaria infection. <xref ref-type="bibr" rid="b66">68</xref> </p>
+    </sec>
+    <sec>
+      <title>under-fIve MortAlIty</title>
+      <p>Under-five mortality rates for all births reported by respondents in the 5 years prior to each survey were computed and compared. We used a Cox proportional hazard survival regression to compare risk of death before the age of 5 years across surveys, using survey year (2008 to 2015) as the explanatory variable and the 2008 survey as the reference.</p>
+      <p>The multiple imputation procedures MI and MIAN-ALYZE in SAS, based on stochastic regression and maximum likelihood methods for the fully conditional specification, were used to estimate missing values for age of death (in months), month of death and year of death. After multiple imputation of missing values, the participation time of each child under 5 years within a year was estimated for the Cox proportional hazard survival regression. We accounted for clustering of observations by sampling survey area. Children under five still alive at the time of survey were right censored. All the criteria were met for the proportional hazard model, and the results were analysed using the multiply imputed datasets.</p>
+      <p>In online supplementary table 2, we present the missing patterns of the dataset with the percentage of complete or incomplete information for each variable to be imputed. The minimum relative efficiency of the imputed dataset was 0.999985, meaning that 99.9985% of the true parameter values were estimated for the variables. Also, the maximum value of the fraction missing info (FMI) for the variables was 0.000763, meaning only 0.076% of sampling variance is attributable to missing data. Figure 2 compares the rate of under-five mortality in the study area to national under-five mortality rates in Mali overall <xref ref-type="bibr" rid="b67">69</xref> and in urban areas of Mali 64 in particular. Under-five mortality rate was estimated at 154 deaths per 1000 live births in 2008 before the ProCCM intervention and at 7 deaths per 1000 live births in 2015, 7 years after intervention launch (HR 0.039 p&lt;0.0001, table 3). In each of the 6 years since 2010, the area of intervention maintained a rate of under-five mortality equal to or less   <xref ref-type="bibr" rid="b62">64</xref> These findings, while remarkable, are subject to several important limitations. First, this interrupted time series study design had no control group, and therefore, no causal inference can be made attributing the documented changes in health outcomes to the ProCCM intervention, to specific elements of ProCCM or to concurrent interventions addressing the social determinants of health. We cannot draw conclusions as to whether the differences in under-five mortality were due to demographic shifts, other national trends or other factors. The study did not collect information regarding household wealth, parasite prevalence or vaccination coverage. We cannot rule out the possibility that, in the context of rapid urbanisation, the population make-up in the study area changed in some systematic way that contributed to the study findings. However, the sociodemographic indicators collected in the study remained similar over the study period, providing no indication of an overall demographic shift in the population.</p>
+      <p>The study only conducted one preintervention survey, leaving open the possibility that the baseline rate recorded was an abnormal year. However, that baseline rate is consistent with national and urban rates at the time. The study also involved only one periurban site, limiting the conclusions that can be made regarding the study's generalizability.</p>
+      <p>The rate of decline in under-five mortality rate in the first survey years is faster than would be expected given that rates were based on all births in the 5 years prior to each survey. Four factors may have contributed here: (1) small sample size in the first three survey years resulted in wider CIs with the possibility of an overestimate of the baseline rate or an underestimate of the rate in 2009 or 2010; (2) as shown in figure 2, Mali's under-five mortality rate was already declining during this period, and likely contributed an uneven distribution of child deaths across the study years, though given the recorded national changes in under-five mortality, the contribution of this factor was likely modest; (3) recall error could have led respondents to under-report deaths occurring more than a year prior to the survey or (4) demographic changes could have occurred in the study population that were not captured by the sociodemographic indicators measured in the survey.</p>
+      <p>The original sample size of 400 households of the first three surveys (2008 to 2010) was powered for the outcome of early treatment with an effective antimalarial. Although the sample size was not powered for underfive mortality rate, we, nevertheless, observed significant differences in under-five child mortality in each year Figure 2 Under-five mortality rates before and during the ProCCM intervention, in the area of the intervention (orange diamonds), in urban areas of Mali (black circles) and nationally in Mali (black line). DHS, Demographic and Health Survey; ProCCM, proactive community case management; UN, United Nations. </p>
+    </sec>
+    <sec>
+      <title>BMJ Global Health</title>
+      <p>over the 7-year follow-up with respect to baseline. The slight differences in under-five mortality rate for years 2008 through 2011 reported here compared with the rates published in 2013 are attributable to the fact that all imputations were rerun for this follow-up analysis, and results differ slightly each time the multiple imputations procedure is run. We tested whether bed net ownership was a significant confounder, using a Cox proportional hazard survival regression for under-five mortality rate, and found that bed net ownership changes in this study were not significant (P=0.88) in the model predicting under-five mortality rate.</p>
+      <p>Taking into account these important limitations, there is no strong evidence that confounders played a substantial role in these dramatic results. In this context, roll-out of ProCCM is the most probable explanation for the findings in this intervention.</p>
+      <p>Given that under-five mortality rates are driven by curable, time-sensitive illnesses, the documented increase in early access to care provides one possible explanation for sustained low rates of under-five mortality reported here. ProCCM is designed to remove financial, geographical, gender and infrastructural barriers that reduce and delay access to care and ultimately reduce underfive mortality through two primary mechanisms. First, increased access to earlier effective treatment can directly reduce the likelihood of progression to severe illness and death. Through proactive case detection, in-home diagnosis and treatment and rapid evacuation of patients with danger signs to the primary care facility, CHWs aimed to ensure early treatment in the home or the clinic for the leading causes of under-five mortality: neonatal illness, malaria, pneumonia and diarrhoea. While the study design does not permit an analysis of cause of death before and during the ProCCM intervention, it is reasonable to hypothesise that rapid access to evidence-based treatment could have reduced mortality for all of these conditions, including neonatal illnesses responsible for 36% of under-five deaths in Mali. <xref ref-type="bibr" rid="b62">64</xref> Second, in the case of malaria, diarrhoeal disease and pneumonia, earlier treatment can reduce the time period during which a patient can infect others.</p>
+    </sec>
+    <sec>
+      <title>ConClusIon</title>
+      <p>In 2015, the United Nations committed to the Sustainable Development Goals, which include each country achieving universal health coverage and attaining an under-five mortality rate of no more than 25/1000 by 2030. As part of the efforts to achieve these goals in improving access to care and child survival, 28 countries in sub-Saharan Africa have deployed iCCM by CHWs. <xref ref-type="bibr" rid="b35">37</xref> While multiple studies have shown that this CHW-led strategy can reduce newborn and under-five mortality, efforts to scale up iCCM have been met with mixed results, raising questions about how CHWs can be deployed most effectively, particularly in rapidly growing urban areas.</p>
+      <p>After the roll-out of ProCCM, the areas studied here have sustained a rate of under-five mortality lower than that of any country in sub-Saharan Africa for the past 6 years.</p>
+      <p>Amid rapid urbanisation throughout the region, health systems will need to overcome the multiplicity of barriers urban patients face to accessing timely care in order to stop preventable child deaths. Rapid population growth during the intervention also necessitated recruitment of additional CHWs, expansion of infrastructure capacity and annual adjustment of medication and supply needs.</p>
+      <p>Further research is urgently needed on ProCCM and its core strategies, to determine their respective role in improving morbidity and mortality. A randomised controlled trial of ProCCM's proactive case detection approach is currently underway across 137 cluster sites, designed to address some of these limitations ( ClinicalTrials. gov NCT02694055).</p>
+      <p>Contributors ADJ, DD and FT were involved in the design of the study. KK, BP, DD, FT and IC led the data collection. OT led data cleaning and data analysis. ADJ, CW and OT wrote the manuscript. All authors provided input in the revision and final approval of the manuscript and met the ICMJE authorship conditions. funding Funds from the Child Relief International Foundation supported this research.</p>
+      <p>Competing interests None declared. patient consent Participant/guardian consent obtained.</p>
+      <p>ethics approval This study was reviewed and approved by the ethical committee of the Faculty of Medicine and Odontostomatology of the University of Bamako, Mali, reference 2016/40/CE/FMPOS. The study was also reviewed by the University of California, San Francisco, Human Research Protection Program Committee on Human Research and approved via exempt certification as posing minimal risk to the population being studied, reference nos 10-02198, 004193 and 070270.</p>
+      <p>provenance and peer review Not commissioned; externally peer reviewed. open Access This is an Open Access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/</p>
+    </sec>
+    <sec id="figures">
+      <title>Figures</title>
+      <fig id="fig_0">
+        <object-id>fig_0</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>Figure 1</title>
+          <p>Figure 1 Number of patient-provider visits in the home and in the public primary health centre, before and after the launch of the ProCCM intervention. CHW, community health worker; ProCCM, proactive community case management.</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <fig id="fig_1">
+        <object-id>fig_1</object-id>
+        <label/>
+        <caption>
+          <title/>
+          <p>data sharing statement The anonymised data sets used for this analysis are available upon request with the corresponding author. If the reader requires any further information, they are welcome to contact the corresponding author.</p>
+        </caption>
+        <graphic/>
+      </fig>
+      <table-wrap id="tab_0">
+        <label>Table 1 Percentage</label>
+        <caption>
+          <title>Table 1 Percentage</title>
+          <p>and estimated OR of febrile illness among children under 5 years in the 2 weeks prior to the survey, from 2009 to 2015, after the introduction of the ProCCM intervention, compared with the baseline figure in 2008 (survey logistic regression model)</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Study 
+year 
+n 
+Missing 
+Count 
+Percentage 
+
+Survey logistic regression model 
+
+OR 
+95% CI 
+P value 
+
+2008 
+292 
+0 
+116 
+39.7 
+1.00 
+Ref 
+2009 
+426 
+0 
+91 
+21.4 
+0.392 
+0.263 to 0.583 
+&lt;0.0001 
+
+2010 
+463 
+0 
+129 
+27.9 
+0.591 
+0.405 to 0.862 
+0.0063 
+
+2011 
+1317 
+0 
+299 
+22.7 
+0.372 
+0.268 to 0.517 
+&lt;0.0001 
+
+2012 
+918 
+0 
+317 
+33.2 
+0.762 
+0.550 to 1.055 
+0.1015 
+
+2013 
+1056 
+0 
+321 
+30.4 
+0.665 
+0.484 to 0.912 
+0.0113 
+
+2014 
+1056 
+0 
+166 
+15.7 
+0.285 
+0.204 to 0.400 
+&lt;0.0001 
+2015 
+985 
+0 
+223 
+22.6 
+0.448 
+0.323 to 0.620 
+&lt;0.0001 </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_1">
+        <label>Table 2 Percentage</label>
+        <caption>
+          <title>Table 2 Percentage</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td/>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_2">
+        <label>with baseline in 2008</label>
+        <caption>
+          <title>with baseline in 2008</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Study year 
+n 
+Missing 
+Count 
+Percentage 
+
+Survey logistic regression model 
+
+OR 
+95% CI 
+P value 
+
+2008 
+116 
+0 
+17 
+14.655 
+1.00 
+Ref 
+2009 
+91 
+0 
+29 
+31.868 
+2.442 
+1.200 to 4.967 
+0.0138 
+
+2010 
+129 
+0 
+58 
+44.961 
+4.756 
+2.530 to 8.940 
+&lt;0.0001 
+
+2011 
+299 
+0 
+91 
+30.435 
+2.395 
+1.324 to 4.333 
+0.0039 
+
+2012 
+317 
+22 
+121 
+41.017 
+4.039 
+2.247 to 7.257 
+&lt;0.0001 
+
+2013 
+321 
+5 
+120 
+31.975 
+3.620 
+2.048 to 6.398 
+&lt;0.0001 
+
+2014 
+166 
+0 
+108 
+65.060 
+10.842 
+5.850 to 20.091 
+&lt;0.0001 
+2015 
+223 
+2 
+78 
+35.294 
+3.198 
+1.749 to 5.847 
+0.0002 
+
+ProCCM, proactive community case management. 
+
+group.bmj.com 
+on April 3, 2018 -Published by 
+http://gh.bmj.com/ 
+Downloaded from BMJ Global Health 
+
+than 28/1000. During the same period, Mali's estimated 
+national under-five mortality rate was 148/1000 in 2008 
+and at least 114/1000 through 2015 (United Nations 
+Interagency Group for Child Mortality Estimation). 55 69 
+The under-five mortality rate in Mali's 2012-2013 Demo-
+graphic and Health Survey was 95/1000 (though this 
+survey covered only southern Mali). </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="tab_3">
+        <label>Table 3 Mortality rate per 1000 live births, HR and 95% CI in children under 5 years old (survey proportional hazard model) from 2008 to 2015, with 2008 as the reference</label>
+        <caption>
+          <title>Table 3 Mortality rate per 1000 live births, HR and 95% CI in children under 5 years old (survey proportional hazard model) from 2008 to 2015, with 2008 as the reference</title>
+          <p/>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td>Year 
+No of live births No of deaths 
+
+Under-five 
+mortality per 
+1000 live births HR 
+95% CI HR 
+P value 
+
+2008 
+330 
+39 
+154 
+1.000 
+Ref 
+2009 
+439 
+19 
+60 
+0.368 
+0.210 to 0.645 
+0.0005 
+
+2010 
+512 
+8 
+21 
+0.130 
+0.060 to 0.278 
+&lt;0.0001 
+
+2011 
+1423 
+26 
+25 
+0.153 
+0.092 to 0.254 
+&lt;0.0001 
+
+2012 
+880 
+10 
+15 
+0.093 
+0.047 to 0.187 
+&lt;0.0001 
+
+2013 
+1161 
+24 
+28 
+0.169 
+0.101 to 0.283 
+&lt;0.0001 
+
+2014 
+1050 
+7 
+9 
+0.053 
+0.024 to 0.116 
+&lt;0.0001 
+2015 
+1023 
+5 
+7 
+0.039 
+0.013 to 0.116 
+&lt;0.0001 </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </body>
   <back>
     <ref-list id="ref-list-1">
       <ref id="b0">
@@ -900,7 +1311,7 @@
       </ref>
       <ref id="b35">
         <element-citation publication-type="journal">
-          <article-title>Community case management of childhood illness in sub-Saharan Africa-findings from a cross-sectional survey on policy and implementation</article-title>
+          <article-title>Community case management of childhood illness in sub-Saharan Africa -findings from a cross-sectional survey on policy and implementation</article-title>
           <source>J Glob Health</source>
           <year>2014</year>
           <volume>4</volume>
@@ -1479,7 +1890,7 @@
       </ref>
       <ref id="b62">
         <element-citation publication-type="journal">
-          <article-title>Centre d'&#201;tudes et d'Information Statistiques-INFO-STAT/Mali and ICF International</article-title>
+          <article-title>Centre d'&#201;tudes et d'Information Statistiques -INFO-STAT/Mali and ICF International</article-title>
           <year>2012</year>
           <person-group person-group-type="author">
             <name>

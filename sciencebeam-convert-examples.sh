@@ -25,3 +25,8 @@ mkdir -p "${xml_dir}"
 ./sciencebeam-download-and-convert.sh \
   "http://gh.bmj.com/content/3/2/e000634.full.pdf" \
   "$xml_dir/bmj-10.1136-bmjgh-2017-000634.xml"
+
+# https://github.com/elifesciences/XML-mapping/blob/master/elife-00666.pdf
+./sciencebeam-download-and-convert.sh \
+  "https://github.com/elifesciences/XML-mapping/raw/master/elife-00666.pdf" \
+  "$xml_dir/elife-00666.xml"
