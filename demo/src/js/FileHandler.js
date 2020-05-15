@@ -14,7 +14,7 @@ const FileHandler = class FileHandler {
   postFileData(data, filename) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      const convertApiUrl = '/api/convert';
+      const convertApiUrl = '/api_biorxiv/convert';
       xhr.open('POST', `${convertApiUrl}?filename=${encodeURIComponent(filename)}`);
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
       xhr.setRequestHeader('Content-Type', 'application/octet-stream');

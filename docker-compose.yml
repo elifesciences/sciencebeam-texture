@@ -49,6 +49,28 @@ services:
             - "8070:8070"
         networks:
             - grobid
+    sciencebeam_biorxiv:
+        image: elifesciences/sciencebeam:${SCIENCEBEAM_TAG}
+        command: ./server.sh \
+            --host=0.0.0.0 --port=8076 \
+            --pipeline grobid \
+            --grobid-url http://grobid_biorxiv:8070/api
+        ports:
+            - "8076:8075"
+        networks:
+            - default
+            - grobid
+        depends_on:
+            - grobid_biorxiv
+    grobid_biorxiv:
+        image: ${SCIENCEBEAM_GROBID_BIORXIV_REPO}:${SCIENCEBEAM_GROBID_BIORXIV_TAG}
+        environment:
+            - JAVA_OPTS=-Xmx1g
+            - GROBID__HEADER__USE_LABELED_ABSTRACT=false
+        ports:
+            - "8072:8070"
+        networks:
+            - grobid
 
 networks:
     default:
