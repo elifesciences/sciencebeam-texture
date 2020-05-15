@@ -84,12 +84,28 @@
               </ul>
             </section>
             <section class="section--uploader">
+              <div class="model-type-selector-container" style="float: right">
+                <h4>Type of model</h4>
+                <p>The model trained on bioRxiv will work better on review papers than on published typeset papers.</p>
+                <p class="model-type-selector">
+                  <button
+                    class="button button--default"
+                    id="biorxiv-model-button"
+                    value="biorxiv"
+                  >bioRxiv</button>
+                  <button
+                    class="button button--outline"
+                    id="other-model-button"
+                    value="other"
+                  >other</button>
+                </p>                              
+              </div>
               <h2>File uploader</h2>
               <form action="#">
                 <input type="file" id="filePicker" name="files" />
                 <output id="messageBoard"></output>
               </form>
-
+              <div style="clear: both;"></div> 
             </section>
 
 

@@ -1,9 +1,17 @@
 'use strict';
 
+
+const BIORXIV_MODEL_CONVERT_API_URL = '/api_biorxiv/convert';
+const OTHER_MODEL_CONVERT_API_URL = '/api/convert';
+
+const DEFAULT_CONVERT_API_URL = BIORXIV_MODEL_CONVERT_API_URL;
+
+
 const FileHandler = class FileHandler {
   constructor(window, messageBoard) {
     this.window = window;
     this.messageBoard = messageBoard;
+    this.convertApiUrl = DEFAULT_CONVERT_API_URL;
   }
 
   storeTransformedFileData(data) {
@@ -11,11 +19,14 @@ const FileHandler = class FileHandler {
     this.messageBoard.announceSuccess('File data processed, stored in local storage');
   }
 
+  setConvertApiUrl(convertApiUrl) {
+    this.convertApiUrl = convertApiUrl;
+  }
+
   postFileData(data, filename) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      const convertApiUrl = '/api_biorxiv/convert';
-      xhr.open('POST', `${convertApiUrl}?filename=${encodeURIComponent(filename)}`);
+      xhr.open('POST', `${this.convertApiUrl}?filename=${encodeURIComponent(filename)}`);
       xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
       xhr.setRequestHeader('Content-Type', 'application/octet-stream');
       xhr.onload = () => {
@@ -54,4 +65,9 @@ const FileHandler = class FileHandler {
   }
 };
 
-export { FileHandler as default };
+export {
+  FileHandler as default,
+  FileHandler,
+  BIORXIV_MODEL_CONVERT_API_URL,
+  OTHER_MODEL_CONVERT_API_URL
+};
