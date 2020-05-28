@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "sciencebeam-texture.fullname" . }}-test-connection"
+  labels:
+    {{- include "sciencebeam-texture.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "sciencebeam-texture.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

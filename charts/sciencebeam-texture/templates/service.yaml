@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "sciencebeam-texture.fullname" . }}
+  labels:
+    {{- include "sciencebeam-texture.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "sciencebeam-texture.selectorLabels" . | nindent 4 }}
