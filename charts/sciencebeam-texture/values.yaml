@@ -48,7 +48,6 @@ ingress:
   hosts:
     - host: sciencebeam-texture.local
       paths: []
-      externalPaths: []
   tls: []
   #  - secretName: sciencebeam-texture-tls
   #    hosts:
