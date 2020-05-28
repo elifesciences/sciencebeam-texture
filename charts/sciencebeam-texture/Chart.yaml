@@ -1,6 +1,6 @@
 apiVersion: v2
 name: sciencebeam-texture
-description: A Helm chart for Kubernetes
+description: ScienceBeam Texture Demo Website Helm chart
 
 # A chart can be either an 'application' or a 'library' chart.
 #
