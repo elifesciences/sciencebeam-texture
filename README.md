@@ -55,3 +55,6 @@ Effect:
 
 * Downloads sample PDFs
 * Converts PDF by running the _elifesciences/sciencebeam_ container
+
+## Front End
+ * To setup the Front End so you see styling changes then look at the README file in the demo folder (/demo/README.md).
