@@ -26,6 +26,12 @@ Effect:
 ### Build images
 
 ```bash
+make build
+```
+
+or:
+
+```bash
 docker-compose build
 ```
 
@@ -34,6 +40,14 @@ Effect:
 * Creates local `elifesciences/*` Docker images.
 
 ### Run containers
+
+```bash
+make start logs
+```
+
+(use `make stop` to stop the server)
+
+or:
 
 ```bash
 docker-compose up
@@ -55,3 +69,7 @@ Effect:
 
 * Downloads sample PDFs
 * Converts PDF by running the _elifesciences/sciencebeam_ container
+
+## Front End
+
+* Please read the [README file in the demo folder](demo/README.md) to setup the Front End for seeing styling changes, without needing to rebuild the Docker image.
