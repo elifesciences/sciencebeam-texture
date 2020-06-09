@@ -69,3 +69,7 @@ Effect:
 
 * Downloads sample PDFs
 * Converts PDF by running the _elifesciences/sciencebeam_ container
+
+## Front End
+
+* Please read the [README file in the demo folder](demo/README.md) to setup the Front End for seeing styling changes, without needing to rebuild the Docker image.
