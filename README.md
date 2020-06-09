@@ -57,4 +57,5 @@ Effect:
 * Converts PDF by running the _elifesciences/sciencebeam_ container
 
 ## Front End
- * To setup the Front End so you see styling changes then look at the README file in the demo folder (/demo/README.md).
+
+* Please read the [README file in the demo folder](demo/README.md) to setup the Front End for seeing styling changes, without needing to rebuild the Docker image.
