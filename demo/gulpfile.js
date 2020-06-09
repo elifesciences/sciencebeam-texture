@@ -150,29 +150,26 @@ gulp.task('js:lint', gulp.series(['js:clean'], () => {
              .pipe(eslint.failAfterError());
 }));
 
-gulp.task('sass:watch', () => {
-  return gulp.watch(`${path.srcDir.scss}**/*`, ['sass']);
-});
 
-gulp.task('img:watch', () => {
-  return gulp.watch(`${path.srcDir.img}**/*`, ['img']);
-});
+function simple_gulp_watch_task(watch_task_id, file_pattern, trigger_task_ids) {
+  gutil.log(`${watch_task_id}: watching: "${file_pattern}", triggering: ${trigger_task_ids}`);
+  gulp.task(watch_task_id, () => {
+    return gulp.watch(file_pattern, gulp.series(trigger_task_ids));
+  });
+}
 
-gulp.task('fonts:watch', () => {
-  return gulp.watch(`${path.srcDir.fonts}/*`, ['fonts']);
-});
+simple_gulp_watch_task('sass:watch', `${path.srcDir.scss}/**/*`, ['sass']);
 
-gulp.task('exampleData:watch', () => {
-  return gulp.watch(`${path.srcDir.exampleData}/*`, ['exampleData']);
-});
+simple_gulp_watch_task('img:watch', `${path.srcDir.img}/**/*`, ['img']);
 
-gulp.task('js:watch', () => {
-  return gulp.watch([`${path.srcDir.js}**/*`], ['js']);
-});
+simple_gulp_watch_task('fonts:watch', `${path.srcDir.fonts}/*`, ['fonts']);
 
-gulp.task('markup:watch', () => {
-  return gulp.watch([`${path.srcDir.markup}**/*`], ['markup']);
-});
+simple_gulp_watch_task('exampleData:watch', `${path.srcDir.exampleData}/*`, ['exampleData']);
+
+simple_gulp_watch_task('js:watch', `${path.srcDir.js}/**/*`, ['js']);
+
+simple_gulp_watch_task('markup:watch', `${path.srcDir.markup}/**/*`, ['markup']);
+
 
 gulp.task('server', () => {
   if (!server) {
@@ -210,7 +207,7 @@ gulp.task('server', () => {
 });
 
 // Task sets
-gulp.task('watch', gulp.series([
+gulp.task('watch', gulp.parallel([
   'sass:watch', 'img:watch', 'js:watch', 'fonts:watch', 'exampleData:watch',
   'markup:watch', 'server'
 ]));
