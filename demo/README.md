@@ -16,6 +16,12 @@
 ### Without Docker
 
 - `npm install` to install dependencies
-- `gulp build` to build the demo
-- `gulp server` to serve the demo on `http://localhost:3000` (uses browserSync)
-- `gulp watch` watches for and rebuilds based on changes within `src`, it opens a Chrome tab and auto reloads on build.
+- `npm run build` or `gulp build` to build the demo
+- `npm start` or `gulp serve` to serve the demo on `http://localhost:3000` (uses browserSync)
+- `npm run watch` or `gulp watch` watches for and rebuilds based on changes within `src`, it opens a Chrome tab and auto reloads on build.
+
+To run with the demo website with ScienceBeam API proxy (currently only at `/api`):
+
+- Start application at the root (via docker-compose)
+- `npm run start-with-api-proxy` to start the server without watching
+- `npm run watch-with-api-proxy` to start the server while watching for changes

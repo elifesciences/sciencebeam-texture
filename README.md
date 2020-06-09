@@ -26,6 +26,12 @@ Effect:
 ### Build images
 
 ```bash
+make build
+```
+
+or:
+
+```bash
 docker-compose build
 ```
 
@@ -34,6 +40,14 @@ Effect:
 * Creates local `elifesciences/*` Docker images.
 
 ### Run containers
+
+```bash
+make start logs
+```
+
+(use `make stop` to stop the server)
+
+or:
 
 ```bash
 docker-compose up
