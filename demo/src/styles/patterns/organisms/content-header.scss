@@ -14,10 +14,9 @@
     padding-bottom: 0;
 
     &:after {
-      border-bottom: 1px solid $color-text-dividers;
       content: "";
       display: block;
-      @include padding($content-header-padding - 1, "top");
+      @include padding(12, "top");
       width: 100%;
     }
 

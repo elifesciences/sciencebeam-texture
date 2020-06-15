@@ -149,3 +149,23 @@ $arrow-size: 5;
   }
 
 }
+
+.wrapper--content {
+
+    a {
+    @include discreet-link($color-text, false);
+
+    &:hover,
+    &:active {
+      color: inherit;
+    }
+
+  }
+
+  .type-of-model__label {
+    @include font-size-and-vertical-height(14, 24);
+    display: inline-block;
+    font-family: $font-primary;
+    font-weight: bold;
+  }
+}
