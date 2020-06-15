@@ -60,9 +60,10 @@
           <div class="grid">
             <section>
               <h2>Examples</h2>
-              <ul id="example-links">
+              <p>Convert examples articles from various journals, or eLife's kitchen-sink article that contains all possible examples of article content.</p>
+              <ul id="example-links" class="list list--bullet">
                 <li>
-                  <a href="/example-data/elife-32671-v2.xml" class="example-link">eLife</a>
+                  <a href="/example-data/elife-32671-v2.xml">eLife</a>
                   (<a target="_blank" href="https://elifesciences.org/articles/32671">original</a>)
                 </li>
                 <li>
@@ -84,31 +85,34 @@
               </ul>
             </section>
             <section class="section--uploader">
-              <div class="model-type-selector-container" style="float: right">
-                <h4>Type of model</h4>
-                <p>
-                  The <a href="https://github.com/elifesciences/sciencebeam-grobid-biorxiv">bioRxiv model</a>
-                  may work better on preprints and authors' original papers.</br/>
-                  Choose the "Other" model for publisher typeset papers.
-                </p>
-                <p class="model-type-selector">
-                  <button
-                    class="button button--default"
-                    id="biorxiv-model-button"
-                    value="biorxiv"
-                  >bioRxiv</button>
-                  <button
-                    class="button button--outline"
-                    id="other-model-button"
-                    value="other"
-                  >other</button>
-                </p>                              
+              <div class="model-type-selector-container">
+                <h2>Or upload a file</h2>
+                <p>Upload a DOC, DOCX or PDF file to view the converted XML version below. The bioRxiv model may work better on preprints and authors' original papers. Choose the "Other" model for publisher typeset papers.</p>
+                <!-- <p class="model-type-selector">
+                  <label for="type-of-model"></label>
+                  <button class="button button--default" id="biorxiv-model-button" value="biorxiv">bioRxiv</button>
+                  <button class="button button--outline" id="other-model-button" value="other">other</button>
+                </p> -->
+                <div class="model-type-selector">
+                  <div for="type-of-model" class="type-of-model__label" aria-label="BioRxiv">bioRxiv</div>
+
+                  <label class="switch">
+                    <input type="checkbox" id="biorxiv-model-button type-of-model" value="biorxiv">
+                    <span class="slider round"></span>
+                  </label>
+
+                  <div for="type-of-model" class="type-of-model__label" aria-label="Other">Other</div>
+                </div>
               </div>
-              <h2>File uploader</h2>
-              <form action="#">
+              <!-- <form action="#">
                 <input type="file" id="filePicker" name="files" />
                 <output id="messageBoard"></output>
-              </form>
+              </form> -->
+              <label class="myLabel button button--default">
+                <input type="file" id="filePicker" name="files" />
+                <output id="messageBoard"></output>
+                <span>Choose a file</span>
+              </label>
               <div style="clear: both;"></div> 
             </section>
 

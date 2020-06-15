@@ -25,11 +25,17 @@ input {
 }
 
 .section--uploader {
-  border: 1px solid $color-text-dividers;
+  border-top: 1px solid $color-text-dividers;
+  margin-top: 3rem;
   padding: 1rem;
+  padding-left: 0;
 }
 
 .sc-app {
   @include blg-spacing("top", "medium");
   height: 150vh;
+}
+
+.model-type-selector {
+  @include padding(12, "top");
 }
