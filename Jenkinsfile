@@ -26,9 +26,25 @@ elifePipeline {
         }
 
         elifeMainlineOnly {
-            stage 'Push image', {
-                image.push()                    
-                image.tag('latest').push()
+            stage 'Merge to master', {
+                elifeGitMoveToBranch commit, 'master'
+            }
+
+            stage 'Push unstable image', {
+                def unstable_image = image.addSuffixAndTag('_unstable', commit)
+                unstable_image.push()
+                unstable_image.tag('latest').push()
+            }
+        }
+
+        elifeTagOnly { tagName ->
+            def releaseTag = tagName - "v"
+
+            elifeMainlineOnly {
+                stage 'Push release image', {
+                    image.tag(releaseTag).push()
+                    image.tag('latest').push()
+                }
             }
         }
     }
