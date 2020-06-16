@@ -40,11 +40,9 @@ elifePipeline {
         elifeTagOnly { tagName ->
             def releaseTag = tagName - "v"
 
-            elifeMainlineOnly {
-                stage 'Push release image', {
-                    image.tag(releaseTag).push()
-                    image.tag('latest').push()
-                }
+            stage 'Push release image', {
+                image.tag(releaseTag).push()
+                image.tag('latest').push()
             }
         }
     }
