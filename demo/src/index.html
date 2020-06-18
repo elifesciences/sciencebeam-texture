@@ -88,26 +88,19 @@
               <div class="model-type-selector-container">
                 <h2>Or upload a file</h2>
                 <p>Upload a DOC, DOCX or PDF file to view the converted XML version below. The bioRxiv model may work better on preprints and authors' original papers. Choose the "Other" model for publisher typeset papers.</p>
-                <!-- <p class="model-type-selector">
-                  <label for="type-of-model"></label>
-                  <button class="button button--default" id="biorxiv-model-button" value="biorxiv">bioRxiv</button>
-                  <button class="button button--outline" id="other-model-button" value="other">other</button>
-                </p> -->
+
                 <div class="model-type-selector">
                   <div for="type-of-model" class="type-of-model__label" aria-label="BioRxiv">bioRxiv</div>
 
                   <label class="switch">
-                    <input type="checkbox" id="type-of-model" class="type-of-model" value="biorxiv">
+                    <input type="checkbox" id="type-of-model" class="button type-of-model" value="biorxiv">
                     <span class="slider round"></span>
                   </label>
 
                   <div for="type-of-model" class="type-of-model__label" aria-label="Other">Other</div>
                 </div>
               </div>
-              <!-- <form action="#">
-                <input type="file" id="filePicker" name="files" />
-                <output id="messageBoard"></output>
-              </form> -->
+
               <label class="myLabel button button--default">
                 <input type="file" id="filePicker" name="files" />
                 <output id="messageBoard"></output>

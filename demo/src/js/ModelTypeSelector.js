@@ -12,6 +12,7 @@ const ModelTypeSelector = class ModelTypeSelector {
     this.onModelTypeChange = null;
   }
 
+  // This will need to be changed as front end has changed
   registerButtonEvent(modelTypeButton) {
     modelTypeButton.addEventListener(
       'click',
