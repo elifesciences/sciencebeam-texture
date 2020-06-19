@@ -21,10 +21,8 @@ document.querySelector('#filePicker').addEventListener('change', (e) => {
 document.getElementById('type-of-model').onclick = function(event) {
   if (!event.target.checked) {
     fileHandler.setConvertApiUrl(BIORXIV_MODEL_CONVERT_API_URL);
-    console.log(event.target.checked);
   } else {
     fileHandler.setConvertApiUrl(OTHER_MODEL_CONVERT_API_URL);
-    console.log(event.target.checked);
   }
   document.querySelector('#filePicker').value = null;
   messageBoard.clear();
