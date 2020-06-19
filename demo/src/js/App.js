@@ -11,9 +11,6 @@ import './Editor';
 
 document.querySelector('body').classList.add('js');
 
-//const modelTypeSelector = new ModelTypeSelector(
-//  document.querySelectorAll('.model-type-selector .button')
-//);
 const messageBoard = new MessageBoard(document.querySelector('#messageBoard'), window);
 const fileHandler = new FileHandler(window, messageBoard);
 document.querySelector('#filePicker').addEventListener('change', (e) => {
