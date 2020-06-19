@@ -7,7 +7,6 @@ import {
 } from './FileHandler';
 import MessageBoard from './MessageBoard';
 import ShowExampleLink from './ShowExampleLink';
-//import ModelTypeSelector from './ModelTypeSelector';
 import './Editor';
 
 document.querySelector('body').classList.add('js');
