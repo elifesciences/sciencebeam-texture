@@ -57,7 +57,6 @@ const FileHandler = class FileHandler {
     this.messageBoard.showBusy();
     const reader = new FileReader();
     reader.onload = (e) => {
-      this.messageBoard.announceSuccess(`Successfully read file "${file.name}"`);
       this.handleFileData(e.currentTarget.result, file.name);
     };
 
