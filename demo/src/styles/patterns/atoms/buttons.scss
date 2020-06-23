@@ -184,3 +184,8 @@ label.myLabel input[type="file"] {
 .myLabel :valid + span {
     color: #fff;
 }
+
+.output-message {
+  @include margin(12, "top");
+  display: block;
+}
