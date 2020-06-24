@@ -99,8 +99,8 @@
 }
 
 
- /* The switch - the box around the checkbox slider */
-.switch {
+
+.toggle-checkbox {
   @include margin(0 5 36);
   position: relative;
   display: inline-block;
@@ -109,14 +109,14 @@
 }
 
 /* Hide default HTML checkbox */
-.switch input {
+.toggle-checkbox input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
-.slider {
+/* Toggle Checkbox Slider */
+.toggle-checkbox__slider {
   background-color: #2196F3;
   cursor: pointer;
   position: absolute;
@@ -126,10 +126,9 @@
   bottom: 0;
   transition: .4s;
   -webkit-transition: .4s;
-
 }
 
-.slider:before {
+.toggle-checkbox__slider:before {
   position: absolute;
   content: "";
   height:20px;
@@ -141,36 +140,36 @@
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked + .toggle-checkbox__slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus + .toggle-checkbox__slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked + .toggle-checkbox__slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-.slider.round {
+.toggle-checkbox__slider.round {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.toggle-checkbox__slider.round:before {
   border-radius: 50%;
 }
 
-label.myLabel input[type="file"] {
+/***** File Upload styling *****/
+
+label.custom-file-upload input[type="file"] {
     position:absolute;
     top: -1000px;
 }
 
-/***** Example custom styling *****/
-.myLabel {
+.custom-file-upload {
   @include margin(2);
   @include padding(15 18);
   background: #2196F3;
@@ -178,10 +177,10 @@ label.myLabel input[type="file"] {
   text-transform: uppercase;
 }
 
-.myLabel :invalid + span {
+.custom-file-upload :invalid + span {
     color: #fff;
 }
-.myLabel :valid + span {
+.custom-file-upload :valid + span {
     color: #fff;
 }
 
