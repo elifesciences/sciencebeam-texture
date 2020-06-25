@@ -18,6 +18,7 @@ const url = require('url');
 const bodyParser = require('body-parser');
 
 const proxyToApiUrl = process.env.PROXY_TO_API_URL;
+const proxyToBiorxivApiUrl = process.env.PROXY_TO_BIORXIV_API_URL || proxyToApiUrl;
 const demoPort = process.env.DEMO_PORT || '8080';
 const nodeEnv = process.env.NODE_ENV || 'development';
 
@@ -175,15 +176,19 @@ gulp.task('server', () => {
   if (!server) {
     server = express();
     if (proxyToApiUrl) {
-      gutil.log('proxying /api to', proxyToApiUrl);
+      gutil.log(`proxying /api to ${proxyToApiUrl} and /api_biorxiv to ${proxyToBiorxivApiUrl}`);
       const parsedApiUrl = url.parse(proxyToApiUrl);
+      const parsedBiorxivApiUrl = url.parse(proxyToBiorxivApiUrl);
       const apiPath = parsedApiUrl.path;
+      const biorxivApiPath = parsedBiorxivApiUrl.path;
       const apiProxy = proxy(parsedApiUrl.host, {
         proxyReqPathResolver: req => {
           const parsedUrl = url.parse(req.originalUrl);
           const targetUrl = (
-            parsedUrl.path.replace('/api', apiPath) +
-            (parsedUrl.search || '')
+            parsedUrl.path
+            .replace('/api_biorxiv/', biorxivApiPath + '/')
+            .replace('/api/', apiPath + '/')
+            + (parsedUrl.search || '')
           );
           gutil.log('proxy request to', targetUrl);
           return targetUrl;
@@ -193,6 +198,7 @@ gulp.task('server', () => {
       });
       server.use(bodyParser.raw({limit: '50mb', type: 'application/pdf'}));
       server.use("/api/*", apiProxy);
+      server.use("/api_biorxiv/*", apiProxy);
     } else {
       gutil.log('no api url defined, not proxying api');
     }
