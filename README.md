@@ -56,8 +56,9 @@ docker-compose up
 Effect:
 
 * Starts all the Docker containers.
-* Texture will be available on [port 4000](http://localhost:4000/).
-* [GROBID](grobid.readthedocs.io) will be available on [port 8070](http://localhost:8070/).
+* The demo website will be available on [port 8000](http://localhost:8000/) (via nginx).
+* nginx will forward requests based on the path (e.g. root to texture, `/api` to ScienceBeam)
+* Other ports may also be exposed but are not required
 
 ### Convert Sample PDFs using ScienceBeam Container
 
