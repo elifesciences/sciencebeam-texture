@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
     "watch": "gulp watch",
-    "watch-with-api-proxy": "PROXY_TO_API_URL=http://localhost:8000/api gulp watch",
+    "watch-with-api-proxy": "PROXY_TO_API_URL=http://localhost:8000/api PROXY_TO_BIORXIV_API_URL=http://localhost:8000/api_biorxiv gulp watch",
+    "watch-with-live-site-api-proxy": "PROXY_TO_API_URL=https://sciencebeam-texture.elifesciences.org/api PROXY_TO_BIORXIV_API_URL=https://sciencebeam-texture.elifesciences.org/api_biorxiv gulp watch",
     "start": "gulp server",
-    "start-with-api-proxy": "PROXY_TO_API_URL=http://localhost:8000/api gulp server",
+    "start-with-api-proxy": "PROXY_TO_API_URL=http://localhost:8000/api  PROXY_TO_BIORXIV_API_URL=http://localhost:8000/api_biorxiv gulp server",
+    "start-with-live-site-api-proxy": "PROXY_TO_API_URL=https://sciencebeam-texture.elifesciences.org/api PROXY_TO_BIORXIV_API_URL=https://sciencebeam-texture.elifesciences.org/api_biorxiv gulp server",
     "start:prod": "NODE_ENV=production DEMO_PORT=4000 gulp server"
   },
   "repository": {
