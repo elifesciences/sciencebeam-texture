@@ -36,6 +36,8 @@ This method doesn't require a local version of `npm`. It has the advantage of us
   - `npm run start-with-api-proxy` to start the server without watching
   - `npm run watch-with-api-proxy` to start the server while watching for changes
 
+Note: If the ScienceBeam API request fails the first time, this may be due to a timeout while it is loading the models. It may work on subsequent requests.
+
 ##### Start Website with ScienceBeam API Proxy to Live Demo Website ScienceBeam API
 
 This will proxy to the ScienceBeam API on

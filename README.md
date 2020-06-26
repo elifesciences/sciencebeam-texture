@@ -60,6 +60,8 @@ Effect:
 * nginx will forward requests based on the path (e.g. root to texture, `/api` to ScienceBeam)
 * Other ports may also be exposed but are not required
 
+Note: If the ScienceBeam API request fails the first time, this may be due to a timeout while it is loading the models. It may work on subsequent requests.
+
 ### Convert Sample PDFs using ScienceBeam Container
 
 ```bash
