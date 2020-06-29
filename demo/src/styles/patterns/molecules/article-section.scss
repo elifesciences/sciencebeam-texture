@@ -164,6 +164,7 @@ $arrow-size: 5;
 
   .type-of-model__label {
     @include font-size-and-vertical-height(14, 24);
+    @include width(60);
     display: inline-block;
     font-family: $font-primary;
 
