@@ -170,12 +170,14 @@ label.custom-file-upload input[type="file"] {
 }
 
 .custom-file-upload {
-  @include padding(14 18 10);
+  @include padding(12 18);
   background:$color-primary;
   border-radius: 3px;
   cursor: pointer;
   font-family: $font-secondary;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
   display: inline-block;
   text-transform: uppercase;
 }
