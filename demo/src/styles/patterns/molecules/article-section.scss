@@ -166,6 +166,9 @@ $arrow-size: 5;
     @include font-size-and-vertical-height(14, 24);
     display: inline-block;
     font-family: $font-primary;
-    font-weight: bold;
+
+    &.selected-model {
+      font-weight: bold;
+    }
   }
 }
