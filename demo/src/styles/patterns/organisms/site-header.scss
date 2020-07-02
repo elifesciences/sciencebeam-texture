@@ -114,3 +114,42 @@
   @include overlay();
 }
 
+@media only all and (min-width: #{get-rem-from-px($bkpt-site--medium)}em) {
+
+  .site-header__title {
+    float: left;
+    @include height(95);
+    margin-right: 10px;
+    @include margin(10, "right");
+    @include padding(14, "top");
+    @include padding(20, "right");
+    position: relative;
+    width: 170px;
+  }
+
+  .site-header__title:after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 95px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 169px;
+  }
+
+  .site-header__logo_link {
+    background: none;
+    display: block;
+    float: right;
+    height: 51px;
+    margin: 4px 0 0;
+    position: relative;
+    width: 136px;
+    z-index: 10;
+  }
+
+  .site-header__logo_link_image {
+    display: block;
+  }
+}

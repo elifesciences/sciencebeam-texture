@@ -321,8 +321,6 @@ $breakpoint-has-pull: ("x-small", "small", "medium", "large", "x-large") !defaul
  */
 .grid__item {
   float: left;
-  padding-left: $gutter;           /* [1] */
-  padding-right: $gutter;
   width: 100%;
 
   -webkit-box-sizing: border-box;  /* [2] */
