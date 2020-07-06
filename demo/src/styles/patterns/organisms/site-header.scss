@@ -43,7 +43,7 @@
   background: url("../img/patterns/organisms/elife-full-color-horizontal-2020.png") 0 0 no-repeat;
   display: block;
   height: 28px;
-  margin: 6px 0 0 3px;
+  margin: 6px 0 0 6px;
   width: 28px;
 
   // Lock-out IE 11. Dirty :-(
@@ -99,7 +99,7 @@
     background: none;
     display: block;
     height: 51px;
-    margin: 4px 0 0;
+    margin: 4px 0 0 48px;
     position: relative;
     width: 136px;
     z-index: 10;
@@ -114,7 +114,7 @@
   @include overlay();
 }
 
-@media only all and (min-width: #{get-rem-from-px($bkpt-site--medium)}em) {
+@media only all and (min-width: #{get-rem-from-px($bkpt-site--wide)}em) {
 
   .site-header__title {
     float: left;
@@ -142,7 +142,7 @@
     background: none;
     display: block;
     height: 51px;
-    margin: 4px 0 0 4px;
+    margin: 4px 0 0 48px;
     position: relative;
     width: 136px;
     z-index: 10;
@@ -150,5 +150,13 @@
 
   .site-header__logo_link_image {
     display: block;
+  }
+}
+
+@media only all and (min-width: #{get-rem-from-px($bkpt-site--x-wide)}em) {
+
+  .site-header__logo_link {
+    margin: 4px 0 0 -4px;
+
   }
 }

@@ -320,11 +320,7 @@ $breakpoint-has-pull: ("x-small", "small", "medium", "large", "x-large") !defaul
  * 2. Required to combine fluid widths and fixed gutters.
  */
 .grid__item {
-  float: left;
-  padding-left: $gutter;           /* [1] */
-  padding-right: $gutter;
   width: 100%;
-
   -webkit-box-sizing: border-box;  /* [2] */
   -moz-box-sizing: border-box;     /* [2] */
   box-sizing: border-box;          /* [2] */
