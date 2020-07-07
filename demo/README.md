@@ -17,6 +17,8 @@ This method doesn't require a local version of `npm`. It has the advantage of us
 
 ### Using NPM (Without Docker)
 
+Note: all `npm` or `gulp` commands need to be run from the `demo` folder.
+
 - `npm install` to install dependencies
 - `npm run build` or `gulp build` to build the demo
 
@@ -44,8 +46,8 @@ This will proxy to the ScienceBeam API on
 [sciencebeam-texture.elifesciences.org](https://sciencebeam-texture.elifesciences.org/).
 
 - Start site, run either:
-  - `npm run start-with-live-api-proxy` to start the server without watching
-  - `npm run watch-with-live-api-proxy` to start the server while watching for changes
+  - `npm run start-with-live-site-api-proxy` to start the server without watching
+  - `npm run watch-with-live-site-api-proxy` to start the server while watching for changes
 
 #### Demo website ports
 
