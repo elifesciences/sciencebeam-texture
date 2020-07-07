@@ -157,7 +157,7 @@ const showEditor = filename => {
   if (!editor) {
     editor = ScienceBeamTextureEditor.mount({filename}, window.document.body);
     window.setTimeout(() => {
-      document.querySelector('.grid').appendChild(document.querySelector('.sc-app'));
+      document.querySelector('.grid--section').appendChild(document.querySelector('.sc-app'));
       scrollEditorIntoView();
     }, 200);
   } else {

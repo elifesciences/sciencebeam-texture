@@ -6,7 +6,7 @@ input {
   @include font-size-and-vertical-height(16);
 }
 
-.busy:before {
+.busy:after {
   content: "";
   @include loading-spinner($highlight-color: $color-text--reverse, $base-color: #81c4e8);
 }

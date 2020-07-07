@@ -8,14 +8,15 @@ const MessageBoard = class MessageBoard {
 
     this.$elm = $elm;
     this.window = window;
+    this.loader = document.querySelector('.loader');
   }
 
   showBusy() {
-    this.$elm.classList.add('busy');
+    this.loader.classList.add('busy');
   }
 
   showIdle() {
-    this.$elm.classList.remove('busy');
+    this.loader.classList.remove('busy');
   }
 
   announceError(message) {

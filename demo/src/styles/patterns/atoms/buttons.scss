@@ -193,3 +193,12 @@ label.custom-file-upload input[type="file"] {
   @include margin(12, "top");
   display: block;
 }
+
+.file-upload {
+  display: flex;
+  align-items: center;
+}
+
+.loader {
+  margin-left: 10px;
+}
