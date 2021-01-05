@@ -56,7 +56,7 @@ services:
             --pipeline grobid \
             --grobid-url http://grobid_biorxiv:8070/api
         ports:
-            - "8076:8075"
+            - "8076:8076"
         networks:
             - default
             - grobid
