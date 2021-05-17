@@ -27,6 +27,9 @@ services:
             --host=0.0.0.0 --port=8075 \
             --pipeline grobid \
             --grobid-url http://grobid:8070/api
+        environment:
+            - SCIENCEBEAM__XSLT_TEMPLATE_PARAMETERS__ACKNOWLEDGEMENT_TARGET=body
+            - SCIENCEBEAM__XSLT_TEMPLATE_PARAMETERS__ANNEX_TARGET=body
         ports:
             - "8075:8075"
         networks:
@@ -48,6 +51,9 @@ services:
             --host=0.0.0.0 --port=8076 \
             --pipeline grobid \
             --grobid-url http://grobid_biorxiv:8070/api
+        environment:
+            - SCIENCEBEAM__XSLT_TEMPLATE_PARAMETERS__ACKNOWLEDGEMENT_TARGET=body
+            - SCIENCEBEAM__XSLT_TEMPLATE_PARAMETERS__ANNEX_TARGET=body
         ports:
             - "8076:8076"
         networks:
