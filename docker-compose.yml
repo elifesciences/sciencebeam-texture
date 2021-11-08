@@ -14,7 +14,7 @@ services:
             context: ./demo
             dockerfile: Dockerfile
             args:
-                dependencies_sciencebeam: "${SCIENCEBEAM_TAG}"
+                dependencies_sciencebeam_pipelines: "${SCIENCEBEAM_PIPELINES_TAG}"
         image: elifesciences/sciencebeam_texture:${IMAGE_TAG}
         command: npm run start:prod
         ports:

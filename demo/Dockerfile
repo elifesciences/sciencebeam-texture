@@ -15,5 +15,5 @@ COPY --chown=node:node . ${PROJECT_FOLDER}/
 RUN npm run build
 
 HEALTHCHECK --interval=10s --timeout=10s --retries=3 CMD curl -v --fail http://localhost:4000
-ARG dependencies_sciencebeam
-LABEL org.elifesciences.dependencies.sciencebeam="${dependencies_sciencebeam}"
+ARG dependencies_sciencebeam_pipelines
+LABEL org.elifesciences.dependencies.sciencebeam="${dependencies_sciencebeam_pipelines}"
