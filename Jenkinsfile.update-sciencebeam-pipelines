@@ -1,0 +1,15 @@
+def sciencebeamPipelinesTag = params.tag
+
+elifeUpdatePipeline(
+    { _commit ->
+        sh "sed -i -e 's/SCIENCEBEAM_PIPELINES_TAG=.*/SCIENCEBEAM_PIPELINES_TAG=${sciencebeamPipelinesTag}/' .env"
+        sh "git add .env"
+    },
+    {
+        return "Updated sciencebeam-pipelines to ${sciencebeamPipelinesTag}"
+    },
+    'update_sciencebeam/',
+    false,
+    'develop',
+    true
+)

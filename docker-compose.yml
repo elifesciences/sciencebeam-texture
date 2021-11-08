@@ -22,7 +22,7 @@ services:
         depends_on:
             - sciencebeam
     sciencebeam:
-        image: elifesciences/sciencebeam:${SCIENCEBEAM_TAG}
+        image: elifesciences/sciencebeam-pipelines:${SCIENCEBEAM_PIPELINES_TAG}
         command: ./server.sh \
             --host=0.0.0.0 --port=8075 \
             --pipeline grobid \
@@ -46,7 +46,7 @@ services:
         networks:
             - grobid
     sciencebeam_biorxiv:
-        image: elifesciences/sciencebeam:${SCIENCEBEAM_TAG}
+        image: elifesciences/sciencebeam-pipelines:${SCIENCEBEAM_PIPELINES_TAG}
         command: ./server.sh \
             --host=0.0.0.0 --port=8076 \
             --pipeline grobid \
